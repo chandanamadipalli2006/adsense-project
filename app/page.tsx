@@ -27,10 +27,10 @@ export default function HomePage() {
           }
         `}
       </Script>
+      <HitCounter />
 
       {/* PWA Install Prompt */}
       <PWAInstallPrompt />
-      <HitCounter />
 
       {/* Hero Section */}
       <section id="home" className="relative bg-gradient-to-br from-emerald-50 to-blue-50 py-16 sm:py-24">
