@@ -1,11 +1,12 @@
+"use client";
 import { useEffect } from "react";
 
-const GoogleAd = () => {
+export default function GoogleAd() {
   useEffect(() => {
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) {
-      console.error("AdSense error", e);
+      console.error("Adsense error:", e);
     }
   }, []);
 
@@ -19,6 +20,4 @@ const GoogleAd = () => {
       data-full-width-responsive="true"
     ></ins>
   );
-};
-
-export default GoogleAd;
+}
