@@ -62,12 +62,12 @@ export default function TenthHindi() {
       link: "/10th-hindi-activities",
     },
     {
-  name: "VC Publications",
+  name: "VC Publications Key",
   icon: BookMarked, // You can change the icon if needed
   color: "bg-yellow-500",
   hoverColor: "hover:bg-yellow-600",
   description: "Resources and guides published by VC Publications for 10th Hindi",
-  link: "/10th-hindi-vc-publications",
+  link: "/vc-publications-key",
 }
 
   ]
