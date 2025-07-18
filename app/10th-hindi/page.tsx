@@ -61,6 +61,15 @@ export default function TenthHindi() {
       description: "Interactive classroom and homework activities for practice and engagement",
       link: "/10th-hindi-activities",
     },
+    {
+  name: "VC Publications",
+  icon: BookMarked, // You can change the icon if needed
+  color: "bg-yellow-500",
+  hoverColor: "hover:bg-yellow-600",
+  description: "Resources and guides published by VC Publications for 10th Hindi",
+  link: "/10th-hindi-vc-publications",
+}
+
   ]
 
   return (
