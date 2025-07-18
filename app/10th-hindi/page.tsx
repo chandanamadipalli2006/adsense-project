@@ -54,21 +54,22 @@ export default function TenthHindi() {
       link: "/10th-hindi-model-papers",
     },
     {
-      name: "Activities",
-      icon: CalendarCheck,
-      color: "bg-teal-500",
-      hoverColor: "hover:bg-teal-600",
-      description: "Interactive classroom and homework activities for practice and engagement",
-      link: "/10th-hindi-activities",
-    },
-    {
+  name: "Activities",
+  icon: CalendarCheck,
+  color: "bg-teal-500",
+  hoverColor: "hover:bg-teal-600",
+  description: "Interactive classroom and homework activities for practice and engagement",
+  link: "/10th-hindi-activities",
+},
+{
   name: "VC Publications Key",
-  icon: BookMarked, // You can change the icon if needed
+  icon: BookMarked,
   color: "bg-yellow-500",
   hoverColor: "hover:bg-yellow-600",
   description: "Resources and guides published by VC Publications for 10th Hindi",
   link: "/vc-publications-key",
 }
+
 
   ]
 
