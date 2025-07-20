@@ -93,10 +93,10 @@ export default function TenthHindiModelPapers() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Class 10 <span className="text-red-600">Hindi Model Papers</span>
+              Class 10 <span className="text-red-600">Hindi Practice Papers</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-8">
-              Board exam preparation with comprehensive sample papers
+              Practice well and earn good marks in exam.
             </p>
           </div>
         </div>
