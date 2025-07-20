@@ -15,7 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function TenthHindiModelPapers() {
   const modelPapers = [
     {
-      name: "Board Exam Sample Papers",
+      name: "Greenera06.com Practice Papers",
       items: [
         {
           title: "PRACTICE PAPER 1",
