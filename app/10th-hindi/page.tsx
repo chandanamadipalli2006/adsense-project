@@ -51,7 +51,7 @@ export default function TenthHindi() {
       color: "bg-red-500",
       hoverColor: "hover:bg-red-600",
       description: "Sample question papers and model answers for exam preparation",
-      link: "/10th-hindi-model-papers",
+      link: "/10th-hindi-practice-papers",
     },
     {
   name: "Activities",
