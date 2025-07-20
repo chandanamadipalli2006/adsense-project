@@ -10,29 +10,12 @@ export default function TenthHindiModelPapers() {
       name: "Board Exam Sample Papers",
       items: [
         {
-          title: "SAMPLE PAPER 1",
+          title: "PRACTICE PAPER 1",
           icon: FileSpreadsheet,
           color: "bg-red-600 hover:bg-red-700",
-          description: "Official board exam pattern sample paper",
+          description: "Government syllabus based practice paper",
         },
-        {
-          title: "SAMPLE PAPER 2",
-          icon: FileSpreadsheet,
-          color: "bg-red-600 hover:bg-red-700",
-          description: "Alternative board exam sample with solutions",
-        },
-        {
-          title: "SAMPLE PAPER 3",
-          icon: FileSpreadsheet,
-          color: "bg-red-600 hover:bg-red-700",
-          description: "Latest pattern board exam sample paper",
-        },
-        {
-          title: "SAMPLE PAPER 4",
-          icon: FileSpreadsheet,
-          color: "bg-red-600 hover:bg-red-700",
-          description: "Comprehensive board exam practice paper",
-        },
+        
       ],
     },
     {
@@ -43,6 +26,7 @@ export default function TenthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-orange-600 hover:bg-orange-700",
           description: "Complete 2023 board exam paper with solutions",
+          link: "https://drive.google.com/file/d/19Ltal1MnQhynu9KGWRn9GaDB5VTC3YvB/view?usp=sharing"
         },
         {
           title: "2022 PAPER",
