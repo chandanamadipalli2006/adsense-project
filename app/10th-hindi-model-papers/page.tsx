@@ -22,6 +22,7 @@ export default function TenthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-red-600 hover:bg-red-700",
           description: "Government syllabus based practice paper",
+          link: "https://drive.google.com/file/d/19Ltal1MnQhynu9KGWRn9GaDB5VTC3YvB/view?usp=sharing",
         },
       ],
     },
@@ -33,7 +34,6 @@ export default function TenthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-orange-600 hover:bg-orange-700",
           description: "Complete 2023 board exam paper with solutions",
-          link: "https://drive.google.com/file/d/19Ltal1MnQhynu9KGWRn9GaDB5VTC3YvB/view?usp=sharing",
         },
         {
           title: "2022 PAPER",
