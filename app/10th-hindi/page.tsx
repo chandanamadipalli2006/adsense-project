@@ -46,7 +46,7 @@ export default function TenthHindi() {
       link: "/10th-hindi-diaries",
     },
     {
-      name: "Model Papers",
+      name: "Practice Papers",
       icon: FileSpreadsheet,
       color: "bg-red-500",
       hoverColor: "hover:bg-red-600",
