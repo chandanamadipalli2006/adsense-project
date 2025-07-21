@@ -30,6 +30,8 @@ export default function TenthHindiModelPapers() {
           color: "bg-red-600 hover:bg-red-700",
           description: "Government syllabus based practice paper",
           link: "https://drive.google.com/file/d/1sY0OXHVIcIvz3AHaLuZLu4YSANYUb9Ql/view?usp=sharing",
+          downloadLink: "/downloads/VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf",
+          downloadName: "VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf"
         },
       ],
     },
@@ -169,11 +171,24 @@ export default function TenthHindiModelPapers() {
                               </Button>
                             )}
 
-                            {/* Download PDF (optional – not wired to link) */}
-                            <Button variant="outline" className="w-full py-2">
-                              <Download className="h-4 w-4 mr-2" />
-                              Download PDF
-                            </Button>
+                            {/* Download PDF */}
+                            {item.downloadLink ? (
+                              <a
+                                href={item.downloadLink}
+                                download={item.downloadName || true}
+                                className="block"
+                              >
+                                <Button variant="outline" className="w-full py-2">
+                                  <Download className="h-4 w-4 mr-2" />
+                                  Download PDF
+                                </Button>
+                              </a>
+                            ) : (
+                              <Button variant="outline" disabled className="w-full py-2">
+                                <Download className="h-4 w-4 mr-2" />
+                                Download PDF
+                              </Button>
+                            )}
                           </div>
                         </CardContent>
                       </Card>
