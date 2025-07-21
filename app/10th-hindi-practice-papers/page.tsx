@@ -15,6 +15,15 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function TenthHindiModelPapers() {
   const modelPapers = [
     {
+  title: "PRACTICE PAPER 2",
+  icon: FileSpreadsheet,
+  color: "bg-red-600 hover:bg-red-700",
+  description: "Government syllabus based practice paper",
+  link: "https://drive.google.com/file/d/1sY0OXHVIcIvz3AHaLuZLu4YSANYUb9Ql/view?usp=sharing",
+  downloadLink: "public/VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf",
+  downloadName: "VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf"
+},
+    {
       name: "Greenera06.com Practice Papers",
       items: [
         {
@@ -24,15 +33,7 @@ export default function TenthHindiModelPapers() {
           description: "Government syllabus based practice paper",
           link: "https://drive.google.com/file/d/19Ltal1MnQhynu9KGWRn9GaDB5VTC3YvB/view?usp=sharing",
         },
-        {
-  title: "PRACTICE PAPER 2",
-  icon: FileSpreadsheet,
-  color: "bg-red-600 hover:bg-red-700",
-  description: "Government syllabus based practice paper",
-  link: "https://drive.google.com/file/d/1sY0OXHVIcIvz3AHaLuZLu4YSANYUb9Ql/view?usp=sharing",
-  downloadLink: "/VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf",
-  downloadName: "VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf"
-},
+        
       ],
     },
     {
