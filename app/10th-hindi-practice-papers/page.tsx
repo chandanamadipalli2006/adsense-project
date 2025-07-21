@@ -23,7 +23,7 @@ export default function TenthHindiModelPapers() {
         color: "bg-red-600 hover:bg-red-700",
         description: "Government syllabus based practice paper",
         link: "https://drive.google.com/file/d/1sY0OXHVIcIvz3AHaLuZLu4YSANYUb9Ql/view?usp=sharing",
-        downloadLink: "/VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf",
+        downloadLink: "/VC PUBLICATIONS-10Th-FA1-Model Paper-1.pdf",
         downloadName: "VC_PUBLICATIONS-10Th-FA1-Model_Paper-1.pdf"
       },
       {
