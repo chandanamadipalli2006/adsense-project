@@ -24,6 +24,13 @@ export default function TenthHindiModelPapers() {
           description: "Government syllabus based practice paper",
           link: "https://drive.google.com/file/d/19Ltal1MnQhynu9KGWRn9GaDB5VTC3YvB/view?usp=sharing",
         },
+        {
+          title: "PRACTICE PAPER 2",
+          icon: FileSpreadsheet,
+          color: "bg-red-600 hover:bg-red-700",
+          description: "Government syllabus based practice paper",
+          link: "https://drive.google.com/file/d/1sY0OXHVIcIvz3AHaLuZLu4YSANYUb9Ql/view?usp=sharing",
+        },
       ],
     },
     {
