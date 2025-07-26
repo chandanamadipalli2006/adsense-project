@@ -9,32 +9,32 @@ export default function TenthHindiTeachingNotes() {
       name: "Core Teaching Notes",
       items: [
         {
-          title: "CHAPTER 1",
+          title: "Baraste Badal",
           icon: NotebookPen,
           color: "bg-purple-600 hover:bg-purple-700",
-          description: "Board exam-focused teaching strategies",
+          description: "It is very useful to teachers",
           link: "https://drive.google.com/file/d/1_70hWNTJ5g6L3pBMEwlPxPlcjMAeA1rq/view?usp=sharing"
         },
         {
-          title: "CHAPTER 2",
+          title: "Idgah",
           icon: NotebookPen,
           color: "bg-purple-600 hover:bg-purple-700",
-          description: "Effective methodologies for literature teaching",
+          description: "It is very useful to teachers",
           link: "https://drive.google.com/file/d/1VwsksdYukWtO1zDeIB3AWNFAVvllUKPz/view?usp=sharing"
         },
         {
-          title: "CHAPTER 3",
+          title: "Hum Bharathvasi",
           icon: NotebookPen,
           color: "bg-purple-600 hover:bg-purple-700",
-          description: "Grammar instruction techniques with examples",
-          link: "https://drive.google.com/file/d/19KV4148BCFc-hntuPBRgYqvEpCgoSQ6l/view?usp=sharing"
+          description: "It is very useful to teachers",
+          link: "https://drive.google.com/file/d/1H6neHWu3YG7NHeBxhnU1KAY2uWO7VU1C/view?usp=sharing"
         },
         {
-          title: "CHAPTER 4",
+          title: "Kan - Kan Ka Adhikari",
           icon: NotebookPen,
           color: "bg-purple-600 hover:bg-purple-700",
-          description: "Writing skills development approaches",
-          link: "https://drive.google.com/file/d/18KOEm3LDo0Uby9vgolkB9vQjShTJkVvp/view?usp=sharing"
+          description: "It is very useful to teachers",
+          link: "https://drive.google.com/file/d/1M-_oRPxLV_lbxUprsTXgfmTqiWp4qMAN/view?usp=sharing"
         },
         {
           title: "CHAPTER 5",
