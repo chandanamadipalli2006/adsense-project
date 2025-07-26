@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function TenthHindiDiaries() {
-  // Define diaries with icons and colors
   const diaries = [
     {
       name: "Daily Planning Diaries",
@@ -141,11 +140,20 @@ export default function TenthHindiDiaries() {
                             </div>
                           </div>
                           <div className="space-y-2">
-                            <Button className={`w-full ${item.color} text-white py-2`}>
-                              <Eye className="h-4 w-4 mr-2" />
-                              View Diary
-                            </Button>
-                            <Button variant="outline" className="w-full py-2">
+                            {item.link ? (
+                              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                <Button className={`w-full ${item.color} text-white py-2`}>
+                                  <Eye className="h-4 w-4 mr-2" />
+                                  View Diary
+                                </Button>
+                              </a>
+                            ) : (
+                              <Button className={`w-full ${item.color} text-white py-2`} disabled>
+                                <Eye className="h-4 w-4 mr-2" />
+                                View Diary
+                              </Button>
+                            )}
+                            <Button variant="outline" className="w-full py-2" disabled>
                               <Download className="h-4 w-4 mr-2" />
                               Download PDF
                             </Button>
