@@ -13,14 +13,14 @@ export default function TenthHindiTeachingNotes() {
           icon: NotebookPen,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Board exam-focused teaching strategies",
-          link: "https://drive.google.com/file/d/1kruX60dNXkKD9qbf8ouulgpKtSUw5FC1/view?usp=sharing"
+          link: "https://drive.google.com/file/d/1_70hWNTJ5g6L3pBMEwlPxPlcjMAeA1rq/view?usp=sharing"
         },
         {
           title: "CHAPTER 2",
           icon: NotebookPen,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Effective methodologies for literature teaching",
-          link: "https://drive.google.com/file/d/1U_42wilVveKAfqVBuCYTevGojCbvxAdw/view?usp=sharing"
+          link: "https://drive.google.com/file/d/1VwsksdYukWtO1zDeIB3AWNFAVvllUKPz/view?usp=sharing"
         },
         {
           title: "CHAPTER 3",
