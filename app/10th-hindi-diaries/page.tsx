@@ -10,16 +10,18 @@ export default function TenthHindiDiaries() {
       name: "Daily Planning Diaries",
       items: [
         {
-          title: "JUNE DIARY",
+          title: "Braste Badal",
           icon: BookMarked,
           color: "bg-orange-600 hover:bg-orange-700",
           description: "Board exam-focused daily planning for June",
+          link: "https://drive.google.com/file/d/1Y2FPw8h0bMa4ARgRy66iEWyUGuMYUcre/view?usp=sharing",
         },
         {
-          title: "JULY DIARY",
+          title: "Idgah",
           icon: BookMarked,
           color: "bg-orange-600 hover:bg-orange-700",
           description: "Comprehensive daily plans for July curriculum",
+          link: "https://drive.google.com/file/d/1vfNrIx28z8pRiWP_3MEXZ3DQ5hhuf-gD/view?usp=sharing",
         },
         {
           title: "AUGUST DIARY",
