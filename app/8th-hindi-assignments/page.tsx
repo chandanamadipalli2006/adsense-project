@@ -2,54 +2,54 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function HindiMaterials() {
+export default function Hindi8thMaterials() {
   const materialData = [
     {
-      name: "Baraste Badal Notes",
+      name: "ज्ञान हमको दीजिए",
       link: "https://drive.google.com/file/d/1OVQcJG49i3FSm_0FNtE_evcqdBVBhlU2/view?usp=sharing",
     },
     {
-      name: "Idgah Notes",
+      name: "होशियार कौआ",
       link: "https://drive.google.com/file/d/1q_kaXYPYqRK7hj3asSvHuCXZbT61BU18/view?usp=sharing",
     },
     {
-      name: "Hum Bharath Vasi Notes",
+      name: "सिंह",
       link: "https://drive.google.com/file/d/139-UekWLI1tI6MrDrb5WdJPIf4gb1uXn/view?usp=sharing",
     },
     {
-      name: "Kan-Kan ka Adhikari Notes",
+      name: "हम नन्हें बच्चे",
       link: "https://drive.google.com/file/d/1aVDX_nrQHfhFGbyO9DAJ0lPNyUb0ZrMB/view?usp=sharing",
     },
     {
-      name: "Chapter 5 Notes",
+      name: "ईश्वरपुरी का फल",
       link: "https://drive.google.com/file/d/1aLQKr1QC59viZHy4-Hlp4bTh5_3rsPWp/view?usp=sharing",
     },
     {
-      name: "Chapter 6 Notes",
+      name: "पाठ लेखन",
       link: "https://drive.google.com/file/d/1PDY76XlHOBc7weGHOpz4jxir9QUja2rW/view?usp=sharing",
     },
     {
-      name: "Chapter 7 Notes",
+      name: "कोशल",
       link: "https://drive.google.com/file/d/1CnWqCNfNb4uXPNGi_nadyX-HH4eN9gWF/view?usp=sharing",
     },
     {
-      name: "Chapter 8 Notes",
+      name: "आओ हिंदी सीखें",
       link: "https://drive.google.com/file/d/1c_lgpOVHkrVs_kHKOLUi_S4N-q_C6hQF/view?usp=sharing",
     },
     {
-      name: "Chapter 9 Notes",
+      name: "सच्चाई बलवान",
       link: "https://drive.google.com/file/d/1m50Z1YgqtUPDiJVF-busKBmpKWHFVUup/view?usp=sharing",
     },
     {
-      name: "Chapter 10 Notes",
+      name: "कबीर की वाणी",
       link: "https://drive.google.com/file/d/1JbWduhA9nJnFq4y3BVoAlunJPO2hHL8i/view?usp=sharing",
     },
     {
-      name: "Chapter 11 Notes",
+      name: "सत्यता का मंत्र",
       link: "https://drive.google.com/file/d/1efK3llCR-LtqqAbz66ZnmnDpldwIe1GI/view?usp=sharing",
     },
     {
-      name: "Chapter 12 Notes",
+      name: "कॉन्फ्रेंस की यात्रा",
       link: "https://drive.google.com/file/d/12ho9SE77WysdvNnCHCynFI2whSBGt5Eq/view?usp=sharing",
     },
   ]
@@ -61,7 +61,7 @@ export default function HindiMaterials() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              10th Class <span className="text-rose-600">Hindi Study Materials</span>
+              8th Class <span className="text-rose-600">Hindi Study Materials</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-8">
               Download • Learn • Revise • Prepare for Exams
@@ -75,7 +75,7 @@ export default function HindiMaterials() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-              Hindi Chapters & Notes (PDF)
+              Hindi Lessons & Notes (PDF)
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
