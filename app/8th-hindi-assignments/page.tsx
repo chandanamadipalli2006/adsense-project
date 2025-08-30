@@ -63,8 +63,11 @@ export default function Hindi8thMaterials() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               8th Class <span className="text-rose-600">Hindi Study Materials</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-8">
+            <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-4">
               Download • Learn • Revise • Prepare for Exams
+            </p>
+            <p className="text-lg font-semibold text-red-600 bg-red-50 border border-red-200 inline-block px-6 py-3 rounded-xl shadow-md">
+              🔐 Note: To open the PDF documents, use password: <span className="text-gray-900">vcp@2025</span>
             </p>
           </div>
         </div>
