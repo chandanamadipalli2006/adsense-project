@@ -68,6 +68,14 @@ export default function TenthHindi() {
   hoverColor: "hover:bg-yellow-600",
   description: "Resources and guides published by VC Publications for 10th Hindi",
   link: "/vc-publications-key",
+},
+    {
+  name: "Assignments",
+  icon: BookMarked,
+  color: "bg-blue-500",
+  hoverColor: "hover:bg-yellow-600",
+  description: "Lesson wise assignments",
+  link: "/10th-hindi-assignments",
 }
 
 
