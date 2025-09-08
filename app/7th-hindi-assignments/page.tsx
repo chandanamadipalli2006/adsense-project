@@ -21,15 +21,15 @@ export default function Hindi8thMaterials() {
       link: "https://drive.google.com/file/d/1aVDX_nrQHfhFGbyO9DAJ0lPNyUb0ZrMB/view?usp=sharing",
     },
     {
-      name: "ईश्वरपुरी का फल",
+      name: "ईमानदारी का फल",
       link: "https://drive.google.com/file/d/1aLQKr1QC59viZHy4-Hlp4bTh5_3rsPWp/view?usp=sharing",
     },
     {
-      name: "पाठ लेखन",
+      name: "पत्र लेखन",
       link: "https://drive.google.com/file/d/1PDY76XlHOBc7weGHOpz4jxir9QUja2rW/view?usp=sharing",
     },
     {
-      name: "कोशल",
+      name: "कोयल",
       link: "https://drive.google.com/file/d/1CnWqCNfNb4uXPNGi_nadyX-HH4eN9gWF/view?usp=sharing",
     },
     {
@@ -37,7 +37,7 @@ export default function Hindi8thMaterials() {
       link: "https://drive.google.com/file/d/1c_lgpOVHkrVs_kHKOLUi_S4N-q_C6hQF/view?usp=sharing",
     },
     {
-      name: "सच्चाई बलवान",
+      name: "साहसी बालक",
       link: "https://drive.google.com/file/d/1m50Z1YgqtUPDiJVF-busKBmpKWHFVUup/view?usp=sharing",
     },
     {
@@ -45,11 +45,11 @@ export default function Hindi8thMaterials() {
       link: "https://drive.google.com/file/d/1JbWduhA9nJnFq4y3BVoAlunJPO2hHL8i/view?usp=sharing",
     },
     {
-      name: "सत्यता का मंत्र",
+      name: "सफलता का मंत्र",
       link: "https://drive.google.com/file/d/1efK3llCR-LtqqAbz66ZnmnDpldwIe1GI/view?usp=sharing",
     },
     {
-      name: "कॉन्फ्रेंस की यात्रा",
+      name: "कोंडापल्ली की यात्रा",
       link: "https://drive.google.com/file/d/12ho9SE77WysdvNnCHCynFI2whSBGt5Eq/view?usp=sharing",
     },
   ]
@@ -61,7 +61,7 @@ export default function Hindi8thMaterials() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              8th Class <span className="text-rose-600">Hindi Study Materials</span>
+              7th Class <span className="text-rose-600">Hindi Study Materials</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-4">
               Download • Learn • Revise • Prepare for Exams
