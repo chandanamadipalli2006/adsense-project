@@ -45,6 +45,14 @@ export default function SeventhHindi() {
       description: "Sample question papers and model answers for exam preparation",
       link: "/7th-hindi-model-papers",
     },
+    {
+      name: "Assignments",
+      icon: FileSpreadsheet,
+      color: "bg-yellow-500",
+      hoverColor: "hover:bg-red-600",
+      description: "Lesson wise assignments for 7th class students",
+      link: "/7th-hindi-assignments",
+    },
   ]
 
   return (
