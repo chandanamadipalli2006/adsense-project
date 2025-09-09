@@ -14,15 +14,15 @@ export default function Hindi8thMaterials() {
     },
     {
       name: "श्रीहरिकोटा",
-      link: "https://drive.google.com/file/d/1zO_BN9uBmp1u9FhYtLNcyUfgmzQOdiIR/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1zO_BN9uBmp1u9FhYtLNcyUfgmzOQdilR/view?usp=sharing",
     },
     {
       name: "गीत",
-      link: "https://drive.google.com/file/d/1MdyLY9mcmdmT1MJwBC9w_YogvevGDn28/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1MdyLY9mcndmT1MJwBC9w_YogvevGDn28/view?usp=sharing",
     },
     {
       name: "मित्र को पत्र",
-      link: "https://drive.google.com/file/d/1TsMMMOpGW2TaWOQk1Mryk5vYLxbqqXjZ/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1TsMMMQpGW2TaWOQk1Mryk5vYLXbqqXjZ/view?usp=sharing",
     },
   ]
 
