@@ -72,6 +72,7 @@ export default function NinthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Complete annual exam sample paper with solutions",
+          link: "https://drive.google.com/file/d/13Vvl4JVGkBVU5l0EOaOZKbXbDD8IBz9c/view?usp=sharing",
         },
         {
           title: "SAMPLE PAPER 2",
@@ -139,10 +140,20 @@ export default function NinthHindiModelPapers() {
                             </div>
                           </div>
                           <div className="space-y-2">
-                            <Button className={`w-full ${item.color} text-white py-2`}>
-                              <Eye className="h-4 w-4 mr-2" />
-                              View Paper
-                            </Button>
+                            {item.link ? (
+  <Link href={item.link} target="_blank" rel="noopener noreferrer">
+    <Button className={`w-full ${item.color} text-white py-2`}>
+      <Eye className="h-4 w-4 mr-2" />
+      View Paper
+    </Button>
+  </Link>
+) : (
+  <Button className={`w-full ${item.color} text-white py-2`} disabled>
+    <Eye className="h-4 w-4 mr-2" />
+    View Paper
+  </Button>
+)}
+
                             <Button variant="outline" className="w-full py-2">
                               <Download className="h-4 w-4 mr-2" />
                               Download PDF
