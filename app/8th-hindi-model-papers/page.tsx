@@ -65,13 +65,14 @@ export default function EighthHindiModelPapers() {
       ],
     },
     {
-      name: "Annual Exam Papers",
+      name: "FA - 3 Model Papers",
       items: [
         {
           title: "SAMPLE PAPER 1",
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Complete annual exam sample paper with solutions",
+          link: "https://drive.google.com/file/d/1Sj3Fi6aadbPL76b3ksdsIM2ZzcD5jGpJ/view?usp=sharing",
         },
         {
           title: "SAMPLE PAPER 2",
@@ -139,10 +140,23 @@ export default function EighthHindiModelPapers() {
                             </div>
                           </div>
                           <div className="space-y-2">
-                            <Button className={`w-full ${item.color} text-white py-2`}>
-                              <Eye className="h-4 w-4 mr-2" />
-                              View Paper
-                            </Button>
+                            {item.link ? (
+  <Link href={item.link} target="_blank">
+    <Button className={`w-full ${item.color} text-white py-2`}>
+      <Eye className="h-4 w-4 mr-2" />
+      View Paper
+    </Button>
+  </Link>
+) : (
+  <Button
+    disabled
+    className={`w-full ${item.color} text-white py-2 opacity-60 cursor-not-allowed`}
+  >
+    <Eye className="h-4 w-4 mr-2" />
+    View Paper
+  </Button>
+)}
+
                             <Button variant="outline" className="w-full py-2">
                               <Download className="h-4 w-4 mr-2" />
                               Download PDF
