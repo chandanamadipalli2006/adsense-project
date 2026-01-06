@@ -45,6 +45,14 @@ export default function EighthHindi() {
       description: "Sample question papers and model answers for exam preparation",
       link: "/8th-hindi-model-papers",
     },
+     {
+      name: "Model Papers keys",
+      icon: FileSpreadsheet,
+      color: "bg-blue-500",
+      hoverColor: "hover:bg-blue-600",
+      description: "Sample question papers and model answers for exam preparation",
+      link: "/8th-hindi-model-papers-keys",
+    },
     {
       name: "Assignments",
       icon: FileSpreadsheet,
