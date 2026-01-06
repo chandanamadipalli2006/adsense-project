@@ -46,12 +46,20 @@ export default function TenthHindi() {
       link: "/10th-hindi-diaries",
     },
     {
-      name: "Practice Papers",
+      name: "Model Papers",
       icon: FileSpreadsheet,
       color: "bg-red-500",
       hoverColor: "hover:bg-red-600",
       description: "Sample question papers and model answers for exam preparation",
       link: "/10th-hindi-practice-papers",
+    },
+    {
+      name: "Model Papers keys",
+      icon: FileSpreadsheet,
+      color: "bg-red-500",
+      hoverColor: "hover:bg-red-600",
+      description: "Sample question papers and model answers for exam preparation",
+      link: "/10th-hindi-model-papers-keys",
     },
     {
   name: "Activities",
