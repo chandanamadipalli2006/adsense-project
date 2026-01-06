@@ -22,8 +22,8 @@ export default function TenthHindiModelPapers() {
         icon: FileSpreadsheet,
         color: "bg-red-600 hover:bg-red-700",
         description: "Government syllabus based practice paper",
-        downloadLink: "/10-SAMP-3-INITIAL KEY.pdf",
-        downloadName: "Balaram-10-Hindi-FA-3-KEY.pdf"
+        downloadLink: "/Balaram-10-Hindi-FA-3-KEY.pdf",
+        downloadName: "10-SAMP-3-INITIAL KEY.pdf"
       },
       
     ],
