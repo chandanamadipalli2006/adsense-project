@@ -11,7 +11,7 @@ export default function EighthHindiModelPapers() {
       name: "FA - 3 Model Papers",
       items: [
         {
-          title: "SAMPLE PAPER 1 Key",
+          title: "8 - SAMP - 3 - INITIAL KEY",
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Complete annual exam sample paper with solutions",
