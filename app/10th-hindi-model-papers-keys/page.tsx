@@ -23,9 +23,12 @@ export default function TenthHindiModelPapers() {
           color: "bg-red-600 hover:bg-red-700",
           description: "Government syllabus based practice paper",
 
-          // ✅ PDF must exist in /public folder
+          // PDF must exist in /public folder
           downloadLink: "/Balaram-10-Hindi-FA-3-KEY.pdf",
           downloadName: "10-SAMP-3-INITIAL KEY.pdf",
+
+          // 👇 VIEW ONLY (toolbar hidden)
+          viewLink: "/Balaram-10-Hindi-FA-3-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
         },
       ],
     },
@@ -49,7 +52,6 @@ export default function TenthHindiModelPapers() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
-
             {modelPapers.map((category, categoryIndex) => (
               <div key={categoryIndex} className="mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
@@ -85,13 +87,19 @@ export default function TenthHindiModelPapers() {
 
                           <div className="space-y-2">
 
-                            {/* ❌ View disabled because no link yet */}
-                            <Button disabled className={`w-full ${item.color} text-white py-2`}>
-                              <Eye className="h-4 w-4 mr-2" />
-                              View Paper
-                            </Button>
+                            {/* ✅ VIEW ONLY BUTTON */}
+                            <a
+                              href={item.viewLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Button className={`w-full ${item.color} text-white py-2`}>
+                                <Eye className="h-4 w-4 mr-2" />
+                                View Paper
+                              </Button>
+                            </a>
 
-                            {/* ✅ WORKING DOWNLOAD BUTTON */}
+                            {/* ✅ DOWNLOAD BUTTON (optional keep) */}
                             <a
                               href={item.downloadLink}
                               download={item.downloadName}
@@ -126,7 +134,6 @@ export default function TenthHindiModelPapers() {
                 </Button>
               </Link>
             </div>
-
           </div>
         </div>
       </section>
