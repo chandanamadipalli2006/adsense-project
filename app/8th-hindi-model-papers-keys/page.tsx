@@ -16,7 +16,7 @@ export default function EighthHindiModelPapers() {
           description: "Complete annual exam sample paper with solutions",
           link: "https://drive.google.com/file/d/1kCXNPeLOcqV8TX-QPqwb95zVl9cltA2c/view?usp=sharing",
           downloadLink: "/Balaram-8-Hindi-FA-3-KEY.pdf",
-          downloadName: "Balaram-8-Hindi-FA-3-KEY.pdf",,
+          downloadName: "Balaram-8-Hindi-FA-3-KEY.pdf",
         },
         {
           title: "SAMPLE PAPER 2",
