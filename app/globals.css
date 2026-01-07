@@ -14,7 +14,6 @@ body {
 
 @layer base {
   :root {
-    /* Updated design tokens for Greenera06 branding */
     --background: 0 0% 100%;
     --foreground: 215 25% 27%;
     --card: 210 40% 96%;
@@ -49,6 +48,7 @@ body {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 158 64% 52% / 0.5;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -89,7 +89,22 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* 🔥 blinking multi-color download button animation */
+@keyframes blinkColors {
+  0%   { background-color: #ef4444; color: white; }
+  25%  { background-color: #f59e0b; color: white; }
+  50%  { background-color: #10b981; color: white; }
+  75%  { background-color: #3b82f6; color: white; }
+  100% { background-color: #a855f7; color: white; }
+}
+
+.blink-download {
+  animation: blinkColors 1.2s infinite;
+  border: none !important;
 }
