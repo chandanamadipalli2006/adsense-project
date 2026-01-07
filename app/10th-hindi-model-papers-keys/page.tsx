@@ -14,20 +14,19 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function TenthHindiModelPapers() {
   const modelPapers = [
-  {
-    name: "Greenera06.com Practice Papers",
-    items: [
-      {
-        title: "10-SAMP-3-INITIAL KEY",
-        icon: FileSpreadsheet,
-        color: "bg-red-600 hover:bg-red-700",
-        description: "Government syllabus based practice paper",
-        downloadLink: "/Balaram-10-Hindi-FA-3-KEY.pdf",
-        downloadName: "10-SAMP-3-INITIAL KEY.pdf"
-      },
-      
-    ],
-  },
+    {
+      name: "Greenera06.com Practice Papers",
+      items: [
+        {
+          title: "10-SAMP-3-INITIAL KEY",
+          icon: FileSpreadsheet,
+          color: "bg-red-600 hover:bg-red-700",
+          description: "Government syllabus based practice paper",
+          downloadLink: "/Balaram-10-Hindi-FA-3-KEY.pdf",
+          downloadName: "10-SAMP-3-INITIAL KEY.pdf"
+        },
+      ],
+    },
 
     {
       name: "Previous Year Papers",
@@ -58,6 +57,7 @@ export default function TenthHindiModelPapers() {
         },
       ],
     },
+
     {
       name: "Pre-Board Test Papers",
       items: [
@@ -91,7 +91,6 @@ export default function TenthHindiModelPapers() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-red-50 to-orange-50 py-16 sm:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -105,7 +104,6 @@ export default function TenthHindiModelPapers() {
         </div>
       </section>
 
-      {/* Model Papers Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
@@ -114,9 +112,11 @@ export default function TenthHindiModelPapers() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                   {category.name}
                 </h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {category.items.map((item, itemIndex) => {
                     const IconComponent = item.icon;
+
                     return (
                       <Card
                         key={itemIndex}
@@ -129,6 +129,7 @@ export default function TenthHindiModelPapers() {
                             >
                               <IconComponent className="h-6 w-6 text-white" />
                             </div>
+
                             <div className="flex-1">
                               <h3 className="text-lg font-semibold text-gray-900">
                                 {item.title}
@@ -140,39 +141,37 @@ export default function TenthHindiModelPapers() {
                           </div>
 
                           <div className="space-y-2">
-                            {/* View Paper */}
+
+                            {/* View Button */}
                             {item.link ? (
-                              <a
-                                href={item.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block"
-                              >
-                                <Button
-                                  className={`w-full ${item.color} text-white py-2`}
-                                >
+                              <a href={item.link} target="_blank">
+                                <Button className={`w-full ${item.color} text-white py-2`}>
                                   <Eye className="h-4 w-4 mr-2" />
                                   View Paper
                                 </Button>
                               </a>
                             ) : (
-                              <Button
-                                disabled
-                                className={`w-full ${item.color} text-white py-2`}
-                              >
+                              <Button disabled className={`w-full ${item.color} text-white py-2`}>
                                 <Eye className="h-4 w-4 mr-2" />
                                 View Paper
                               </Button>
                             )}
 
-                            {/* Download PDF */}
+                            {/* Download Button — blinking only on FIRST item */}
                             {item.downloadLink ? (
                               <a
                                 href={item.downloadLink}
                                 download={item.downloadName || true}
                                 className="block"
                               >
-                                <Button variant="outline" className="w-full py-2">
+                                <Button
+                                  variant="outline"
+                                  className={`w-full py-2 ${
+                                    categoryIndex === 0 && itemIndex === 0
+                                      ? "blink-download"
+                                      : ""
+                                  }`}
+                                >
                                   <Download className="h-4 w-4 mr-2" />
                                   Download PDF
                                 </Button>
@@ -192,7 +191,6 @@ export default function TenthHindiModelPapers() {
               </div>
             ))}
 
-            {/* Board Exam Success Tools */}
             <div className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-2xl p-8 mb-8">
               <h3 className="text-2xl font-bold text-gray-900 text-center mb-6">
                 Board Exam Success Tools
@@ -217,7 +215,6 @@ export default function TenthHindiModelPapers() {
               </div>
             </div>
 
-            {/* Back Button */}
             <div className="text-center">
               <Link href="/10th-hindi">
                 <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg font-medium">
