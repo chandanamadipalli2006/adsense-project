@@ -80,7 +80,7 @@ export default function NinthHindiModelPapers() {
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Complete annual exam sample paper with solutions",
           link:
-            "https://drive.google.com/file/d/1amPm80sN7bQC3NvbKORJGgW2hQOqHPbD/view?usp=sharing",
+            "https://drive.google.com/file/d/1amPm80sN7bQC3NvbKORJGgW2hQOqHPbD/view",
           download:
             "/BALARAM-9-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
         },
@@ -89,51 +89,6 @@ export default function NinthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Alternative annual exam pattern with marking scheme",
-        },
-        {
-          title: "PRACTICE PAPER 1",
-          icon: FileSpreadsheet,
-          color: "bg-blue-600 hover:bg-blue-700",
-          description: "Comprehensive practice paper for exam preparation",
-        },
-        {
-          title: "PRACTICE PAPER 2",
-          icon: FileSpreadsheet,
-          color: "bg-blue-600 hover:bg-blue-700",
-          description: "Additional practice paper with detailed solutions",
-        },
-      ],
-    },
-    {
-      name: "Annual Exam Papers",
-      items: [
-        {
-          title: "SAMPLE PAPER 1",
-          icon: FileSpreadsheet,
-          color: "bg-purple-600 hover:bg-purple-700",
-          description: "Complete annual exam sample paper with solutions",
-          link:
-            "https://drive.google.com/file/d/13Vvl4JVGkBVU5l0EOaOZKbXbDD8IBz9c/view?usp=sharing",
-        },
-        {
-          title: "SAMPLE PAPER 2",
-          icon: FileSpreadsheet,
-          color: "bg-purple-600 hover:bg-purple-700",
-          description: "Alternative annual exam pattern with marking scheme",
-          link:
-            "https://drive.google.com/file/d/1amPm80sN7bQC3NvbKORJGgW2hQOqHPbD/view?usp=sharing",
-        },
-        {
-          title: "PRACTICE PAPER 1",
-          icon: FileSpreadsheet,
-          color: "bg-blue-600 hover:bg-blue-700",
-          description: "Comprehensive practice paper for exam preparation",
-        },
-        {
-          title: "PRACTICE PAPER 2",
-          icon: FileSpreadsheet,
-          color: "bg-blue-600 hover:bg-blue-700",
-          description: "Additional practice paper with detailed solutions",
         },
       ],
     },
@@ -184,12 +139,16 @@ export default function NinthHindiModelPapers() {
 
                         {/* View */}
                         {item.link ? (
-                          <Link href={item.link} target="_blank">
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <Button className={`w-full mb-2 ${item.color}`}>
                               <Eye className="mr-2 h-4 w-4" />
                               View Paper
                             </Button>
-                          </Link>
+                          </a>
                         ) : (
                           <Button className="w-full mb-2" disabled>
                             <Eye className="mr-2 h-4 w-4" />
