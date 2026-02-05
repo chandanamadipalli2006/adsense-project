@@ -90,7 +90,7 @@ export default function EighthHindiModelPapers() {
           link:
             "https://drive.google.com/file/d/18Z3nW-T6FiLBPzXGlo_Z699v0Ruq25sb/view?usp=sharing",
           download:
-            "/pdfs/BALARAM-8-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
+            "/BALARAM-8-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
         },
         {
           title: "PRACTICE PAPER 1",
