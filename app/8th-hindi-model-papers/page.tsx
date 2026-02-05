@@ -79,6 +79,7 @@ export default function EighthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Alternative annual exam pattern with marking scheme",
+          link: "https://drive.google.com/file/d/18Z3nW-T6FiLBPzXGlo_Z699v0Ruq25sb/view?usp=sharing",
         },
         {
           title: "PRACTICE PAPER 1",
