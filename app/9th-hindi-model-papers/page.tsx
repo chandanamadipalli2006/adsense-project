@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 import {
   ArrowLeft,
@@ -103,7 +104,7 @@ export default function NinthHindiModelPapers() {
           description: "Complete annual exam sample paper with solutions",
           link:
             "https://drive.google.com/file/d/1amPm80sN7bQC3NvbKORJGgW2hQOqHPbD/view?usp=sharing",
-          download: "/BALARAM-9-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
+          download: "/pdfs/BALARAM-9-HIN-FA-4-MODEL PAPER-2025-26.pdf",
         },
         {
           title: "SAMPLE PAPER 2",
