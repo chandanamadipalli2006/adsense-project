@@ -19,8 +19,7 @@ export default function EighthHindiModelPapers() {
           link: "https://drive.google.com/file/d/1kCXNPeLOcqV8TX-QPqwb95zVl9cltA2c/view?usp=sharing",
 
           // Direct download from your site public folder
-          downloadLink: "/Balaram-8-Hindi-FA-3-KEY.pdf",
-          downloadName: "Balaram-8-Hindi-FA-3-KEY.pdf",
+         download: "/pdfs/BALARAM-8-HIN-FA-3-MODEL PAPER-2025-26.pdf",
         },
       ],
     },
@@ -106,10 +105,10 @@ export default function EighthHindiModelPapers() {
                             )}
 
                             {/* DOWNLOAD BUTTON - works */}
-                            {item.downloadLink ? (
+                            {item.download ? (
                               <a
-                                href={item.downloadLink}
-                                download={item.downloadName}
+                                href={item.download}
+                                download={item.download}
                                 className="block"
                               >
                                 <Button className="w-full border blink py-2">
