@@ -108,7 +108,7 @@ export default function SeventhHindiModelPapers() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
             Class 7 <span className="text-red-600">Hindi Model Papers</span>
-            <p>Hello this we update</p>
+          
           </h1>
           <p className="text-xl text-gray-600">
             Comprehensive exam preparation with practice papers
