@@ -82,8 +82,9 @@ export default function SeventhHindiModelPapers() {
           description: "Alternative annual exam pattern with marking scheme",
           link:
             "https://drive.google.com/file/d/1piwGuoDB2ry0YZVl0c1_GDhTww9_pb7O/view?usp=sharing",
-          download:
-            "/BALARAM-7-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
+          
+           download: "/pdfs/BALARAM-7-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
+
         },
         {
           title: "PRACTICE PAPER 1",
