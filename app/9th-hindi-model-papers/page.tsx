@@ -7,12 +7,34 @@ import {
   Award,
   Clock,
   CheckCircle,
+  LucideIcon,
 } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
+/* ============================
+   Types
+============================ */
+interface PaperItem {
+  title: string
+  icon: LucideIcon
+  color: string
+  description: string
+  link?: string
+  download?: string
+}
+
+interface PaperCategory {
+  name: string
+  items: PaperItem[]
+}
+
+/* ============================
+   Component
+============================ */
 export default function NinthHindiModelPapers() {
-  const modelPapers = [
+  const modelPapers: PaperCategory[] = [
     {
       name: "Unit Test Papers",
       items: [
@@ -81,8 +103,7 @@ export default function NinthHindiModelPapers() {
           description: "Complete annual exam sample paper with solutions",
           link:
             "https://drive.google.com/file/d/1amPm80sN7bQC3NvbKORJGgW2hQOqHPbD/view?usp=sharing",
-          download:
-            "/BALARAM-9-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
+          download: "/BALARAM-9-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
         },
         {
           title: "SAMPLE PAPER 2",
