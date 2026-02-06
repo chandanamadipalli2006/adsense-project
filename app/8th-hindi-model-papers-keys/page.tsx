@@ -23,6 +23,23 @@ export default function EighthHindiModelPapers() {
         },
       ],
     },
+     {
+      name: "FA - 4 Model Papers",
+      items: [
+        {
+          title: "8 - SAMP - 4 - INITIAL KEY",
+          icon: FileSpreadsheet,
+          color: "bg-purple-600 hover:bg-purple-700",
+          description: "Complete annual exam sample paper with solutions",
+
+          // View link (Google Drive)
+          link: "https://drive.google.com/file/d/1kCXNPeLOcqV8TX-QPqwb95zVl9cltA2c/view?usp=sharing",
+
+          // Direct download from your site public folder
+         download: "/pdfs/BALARAM-8-HIN-FA-4-MODEL PAPER-2025-26.pdf",
+        },
+      ],
+    },
   ]
 
   return (
