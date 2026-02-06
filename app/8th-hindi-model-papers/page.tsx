@@ -90,7 +90,7 @@ export default function EighthHindiModelPapers() {
           link:
             "https://drive.google.com/file/d/18Z3nW-T6FiLBPzXGlo_Z699v0Ruq25sb/view?usp=sharing",
           download:
-            "/BALARAM-8-HIN-FA-4-MODEL-PAPER-2025-26.pdf",
+            "/BALARAM-8-HIN-FA-3-MODEL PAPER-2025-26.pdf",
         },
         {
           title: "PRACTICE PAPER 1",
@@ -104,8 +104,40 @@ export default function EighthHindiModelPapers() {
           color: "bg-blue-600 hover:bg-blue-700",
           description: "Additional practice paper with detailed solutions",
         },
+        
       ],
     },
+    {
+      name: "FA - 4 Model Papers",
+      items: [
+       
+        {
+          title: "SAMPLE PAPER 1",
+          icon: FileSpreadsheet,
+          color: "bg-purple-600 hover:bg-purple-700",
+          description: "Complete annual exam sample paper with solutions",
+          link:
+            "https://drive.google.com/file/d/18Z3nW-T6FiLBPzXGlo_Z699v0Ruq25sb/view?usp=sharing",
+          download:
+            "/pdfs/BALARAM-8-HIN-FA-4-MODEL PAPER-2025-26.pdf",
+        },
+        {
+          title: "PRACTICE PAPER 1",
+          icon: FileSpreadsheet,
+          color: "bg-blue-600 hover:bg-blue-700",
+          description: "Comprehensive practice paper for exam preparation",
+        },
+        {
+          title: "PRACTICE PAPER 2",
+          icon: FileSpreadsheet,
+          color: "bg-blue-600 hover:bg-blue-700",
+          description: "Additional practice paper with detailed solutions",
+        },
+        
+      ],
+    }
+    
+
   ]
 
   return (
