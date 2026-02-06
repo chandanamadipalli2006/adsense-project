@@ -101,25 +101,17 @@ export default function SeventhHindiModelPapers() {
       ],
     },
     {
-      name: "FA 4 Exam Papers",
+      name: "FA 4Exam Papers",
       items: [
         {
           title: "SAMPLE PAPER 1",
-          icon: FileSpreadsheet,
-          color: "bg-purple-600 hover:bg-purple-700",
-          description: "Complete annual exam sample paper with solutions",
-          link:
-            "https://drive.google.com/file/d/1s4uimeTcS9Hhd5GPBxuiKOqrNzJZaqCJ/view?usp=sharing",
-        },
-        {
-          title: "SAMPLE PAPER 2",
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Alternative annual exam pattern with marking scheme",
           link:
             "https://drive.google.com/file/d/1piwGuoDB2ry0YZVl0c1_GDhTww9_pb7O/view?usp=sharing",
           
-           download: "/pdfs/BALARAM-7-HIN-FA-4-MODEL PAPER-2025-26.pdf",
+           download: "/pdfs/BALARAM-7-HIN-FA-3-MODEL PAPER-2025-26.pdf",
 
         },
         {
