@@ -126,6 +126,8 @@ export default function EighthHindiModelPapers() {
           icon: FileSpreadsheet,
           color: "bg-blue-600 hover:bg-blue-700",
           description: "Comprehensive practice paper for exam preparation",
+          link:
+            "https://drive.google.com/file/d/1Qj6eUKR0K5cg2sbUvqUr5LxxORCCSoCh/view?usp=sharing",
         },
         {
           title: "PRACTICE PAPER 2",
