@@ -37,11 +37,12 @@ export default function TenthHindiModelPapers() {
           description: "Government syllabus based practice paper",
 
           // PDF must exist in /public folder
-          downloadLink: "/pdfs/Balaram-10-Hindi-Pre PublicKEY",
+          downloadLink: "/pdfs/Balaram-10-Hindi-Pre PublicKEY.pdf",
           downloadName: "10-SAMP-3-INITIAL KEY.pdf",
 
           // 👇 VIEW ONLY (toolbar hidden) 
-          link: "https://drive.google.com/file/d/1JtTkvJ2Pla1IWod3sXzCgwPPmOIPysr-/view?usp=drive_link",        },
+          viewLink: "/pdfs/Balaram-10-Hindi-Pre PublicKEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
+        },
       ],
     },
   ];
@@ -119,11 +120,10 @@ export default function TenthHindiModelPapers() {
                             >
                               <Button
                                 variant="outline"
-                                className={`w-full py-2 ${
-                                  categoryIndex === 0 && itemIndex === 0
+                                className={`w-full py-2 ${categoryIndex === 0 && itemIndex === 0
                                     ? "blink-download"
                                     : ""
-                                }`}
+                                  }`}
                               >
                                 <Download className="h-4 w-4 mr-2" />
                                 Download PDF
