@@ -82,8 +82,8 @@ export default function SeventhHindiModelPapers() {
           description: "Alternative annual exam pattern with marking scheme",
           link:
             "https://drive.google.com/file/d/1piwGuoDB2ry0YZVl0c1_GDhTww9_pb7O/view?usp=sharing",
-          
-           download: "/pdfs/BALARAM-7-HIN-FA-3-MODEL PAPER-2025-26.pdf",
+
+          download: "/pdfs/BALARAM-7-HIN-FA-3-MODEL PAPER-2025-26.pdf",
 
         },
         {
@@ -110,15 +110,18 @@ export default function SeventhHindiModelPapers() {
           description: "Alternative annual exam pattern with marking scheme",
           link:
             "https://drive.google.com/file/d/1piwGuoDB2ry0YZVl0c1_GDhTww9_pb7O/view?usp=sharing",
-          
-           download: "/pdfs/BALARAM-7-HIN-FA-4-MODEL PAPER-2025-26.pdf",
+
+          download: "/pdfs/BALARAM-7-HIN-FA-4-MODEL PAPER-2025-26.pdf",
 
         },
         {
-          title: "PRACTICE PAPER 1",
+          title: "Key 1",
           icon: FileSpreadsheet,
           color: "bg-blue-600 hover:bg-blue-700",
           description: "Comprehensive practice paper for exam preparation",
+          link:
+            "https://drive.google.com/file/d/1vR9VORuUfJG5DvX9SrIAPa21vV8SzIpY/view?usp=drive_link",
+          download: "/pdfs/Balaram-7-Hindi-FA-4-KEY -.pdf",
         },
         {
           title: "PRACTICE PAPER 2",
@@ -137,7 +140,7 @@ export default function SeventhHindiModelPapers() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
             Class 7 <span className="text-red-600">Hindi Model Papers</span>
-          
+
           </h1>
           <p className="text-xl text-gray-600">
             Comprehensive exam preparation with practice papers

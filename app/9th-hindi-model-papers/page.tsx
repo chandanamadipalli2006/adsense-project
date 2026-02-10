@@ -107,10 +107,13 @@ export default function NinthHindiModelPapers() {
           download: "/pdfs/BALARAM-9-HIN-FA-4-MODEL PAPER-2025-26.pdf",
         },
         {
-          title: "SAMPLE PAPER 2",
+          title: "Key 1",
           icon: FileSpreadsheet,
           color: "bg-purple-600 hover:bg-purple-700",
           description: "Alternative annual exam pattern with marking scheme",
+          link:
+            "https://drive.google.com/file/d/1p0Lh-Q95ZcksMqOQmqZTkPM3vLWpPMtm/view?usp=drive_link",
+          download: "/pdfs/Balaram-9-Hindi-FA-4-KEY.pdf",
         },
         {
           title: "PRACTICE PAPER 1",

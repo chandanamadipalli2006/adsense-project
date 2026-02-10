@@ -15,7 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function TenthHindiModelPapers() {
   const modelPapers = [
     {
-      name: "Greenera06.com Practice Papers",
+      name: "Practice Papers",
       items: [
         {
           title: "10-SAMP-3-INITIAL KEY",
@@ -30,6 +30,18 @@ export default function TenthHindiModelPapers() {
           // 👇 VIEW ONLY (toolbar hidden)
           viewLink: "/Balaram-10-Hindi-FA-3-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
         },
+        {
+          title: "Pre Public keys",
+          icon: FileSpreadsheet,
+          color: "bg-red-600 hover:bg-red-700",
+          description: "Government syllabus based practice paper",
+
+          // PDF must exist in /public folder
+          downloadLink: "/pdfs/Balaram-10-Hindi-Pre PublicKEY",
+          downloadName: "10-SAMP-3-INITIAL KEY.pdf",
+
+          // 👇 VIEW ONLY (toolbar hidden) 
+          link: "https://drive.google.com/file/d/1JtTkvJ2Pla1IWod3sXzCgwPPmOIPysr-/view?usp=drive_link",        },
       ],
     },
   ];

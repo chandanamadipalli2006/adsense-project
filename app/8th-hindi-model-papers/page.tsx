@@ -122,12 +122,14 @@ export default function EighthHindiModelPapers() {
             "/pdfs/BALARAM-8-HIN-FA-4-MODEL PAPER-2025-26.pdf",
         },
         {
-          title: "PRACTICE PAPER 1",
+          title: "Key 1",
           icon: FileSpreadsheet,
           color: "bg-blue-600 hover:bg-blue-700",
           description: "Comprehensive practice paper for exam preparation",
           link:
             "https://drive.google.com/file/d/1Qj6eUKR0K5cg2sbUvqUr5LxxORCCSoCh/view?usp=sharing",
+          download:
+            "/pdfs/Balaram-8-Hindi-FA-4-KEY.pdf",
         },
         {
           title: "PRACTICE PAPER 2",
