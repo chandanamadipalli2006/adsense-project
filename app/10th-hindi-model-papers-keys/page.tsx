@@ -49,7 +49,7 @@ export default function TenthHindiModelPapers() {
           description: "Government syllabus based practice paper",
           link:
             "/Balaram-10-Hindi-FA-3-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
-          download: "/Balaram-10-Hindi-FA-3-KEY.pdf",
+          download: "/pdfs/Balaram-10-Hindi-FA-3-KEY.pdf",
         },
         {
           title: "Pre Public Keys",
@@ -58,7 +58,7 @@ export default function TenthHindiModelPapers() {
           description: "Government syllabus based practice paper",
           link:
             "/pdfs/Balaram-10-Hindi-Pre-Public-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
-          download: "/pdfs/Balaram-10-Hindi-Pre-Public-KEY.pdf",
+          download: "/pdfs/Balaram-10-Hindi-Pre PublicKEY.pdf",
         },
       ],
     },
