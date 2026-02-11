@@ -48,7 +48,7 @@ export default function TenthHindiModelPapers() {
           color: "bg-red-600 hover:bg-red-700",
           description: "Government syllabus based practice paper",
           link:
-            "/Balaram-10-Hindi-FA-3-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
+            "https://drive.google.com/file/d/18FTnS9sfF1fBw_SylF8q5MSEg-BqI0wK/view?usp=sharing",
           download: "/pdfs/Balaram-10-Hindi-FA-3-KEY.pdf",
         },
         {
@@ -57,8 +57,8 @@ export default function TenthHindiModelPapers() {
           color: "bg-red-600 hover:bg-red-700",
           description: "Government syllabus based practice paper",
           link:
-            "/pdfs/Balaram-10-Hindi-Pre-Public-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
-          download: "/pdfs/Balaram-10-Hindi-Pre PublicKEY.pdf",
+            "https://drive.google.com/file/d/1JtTkvJ2Pla1IWod3sXzCgwPPmOIPysr-/view?usp=drive_link",
+          download: "/pdfs/Balaram-10-Hindi-Pre-PublicKEY.pdf",
         },
       ],
     },
