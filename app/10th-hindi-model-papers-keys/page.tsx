@@ -36,12 +36,12 @@ export default function TenthHindiModelPapers() {
           description: "Government syllabus based practice paper",
 
           // 📌 FILE IN /public/pdfs
-          downloadLink: "/pdfs/Balaram-10-Hindi-Pre-Public-KEY.pdf",
+          downloadLink: "/pdfs/Balaram-10-Hindi-Pre PublicKEY.pdf",
           downloadName: "Pre-Public-KEY.pdf",
 
           // 👁 View only
           viewLink:
-            "/pdfs/Balaram-10-Hindi-Pre-Public-KEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
+            "/pdfs/Balaram-10-Hindi-Pre PublicKEY.pdf#toolbar=0&navpanes=0&scrollbar=0",
         },
       ],
     },
