@@ -51,7 +51,7 @@ export default function NinthHindiSAModelPapers() {
 
                 {/* View Button */}
                 <Link
-                  href="/pdfs/BALARAM_9-HIN-SA-2-MODEL-PAPER-2025-26.pdf"
+                  href="/pdfs/BALARAM-9-HIN-SA-2-MODEL-PAPER-2025-26.pdf"
                   target="_blank"
                 >
                   <Button className="w-full mb-2 bg-red-600 hover:bg-red-700 text-white">
@@ -62,7 +62,7 @@ export default function NinthHindiSAModelPapers() {
 
                 {/* Download Button */}
                 <a
-                  href="/pdfs/BALARAM_9-HIN-SA-2-MODEL-PAPER-2025-26.pdf"
+                  href="/pdfs/BALARAM-9-HIN-SA-2-MODEL-PAPER-2025-26.pdf"
                   download
                 >
                   <Button variant="outline" className="w-full">
