@@ -1,7 +1,9 @@
+
 import Link from "next/link"
 import { ArrowLeft, BookOpen, FileText, NotebookPen, BookMarked, FileSpreadsheet } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { use } from "react"
 
 export default function NinthHindi() {
   const resources = [
@@ -44,6 +46,14 @@ export default function NinthHindi() {
       hoverColor: "hover:bg-red-600",
       description: "Sample question papers and model answers for exam preparation",
       link: "/9th-hindi-model-papers",
+    },
+     {
+      name: "SA Model papers",
+      icon: BookOpen,
+      color: "bg-blue-500",
+      hoverColor: "hover:bg-blue-600",
+      description: "Suummative assessment model papers for practice",
+      link: "/9th-hindi-sa-model-papers",
     },
   ]
 
