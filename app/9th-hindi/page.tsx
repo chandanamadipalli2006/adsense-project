@@ -39,22 +39,7 @@ export default function NinthHindi() {
       description: "Daily and weekly planning diaries for systematic learning",
       link: "/9th-hindi-diaries",
     },
-    {
-      name: "Model Papers",
-      icon: FileSpreadsheet,
-      color: "bg-red-500",
-      hoverColor: "hover:bg-red-600",
-      description: "Sample question papers and model answers for exam preparation",
-      link: "/9th-hindi-model-papers",
-    },
-     {
-      name: "SA Model papers",
-      icon: BookOpen,
-      color: "bg-blue-500",
-      hoverColor: "hover:bg-blue-600",
-      description: "Suummative assessment model papers for practice",
-      link: "/9th-hindi-sa-model-papers",
-    },
+
   ]
 
   return (
