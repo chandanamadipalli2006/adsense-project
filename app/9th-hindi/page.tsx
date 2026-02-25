@@ -7,39 +7,47 @@ import { use } from "react"
 
 export default function NinthHindi() {
   const resources = [
-  {
-    name: "Lesson Plans",
-    icon: BookOpen,
-    color: "bg-blue-500",
-    hoverColor: "hover:bg-blue-600",
-    description: "Detailed lesson plans for 9th class Hindi curriculum",
-    link: "/9th-hindi-lesson-plans",
-  },
-  {
-    name: "Study Materials",
-    icon: FileText,
-    color: "bg-green-500",
-    hoverColor: "hover:bg-green-600",
-    description: "Comprehensive study materials covering all topics in the syllabus",
-    link: "/9th-hindi-study-materials",
-  },
-  {
-    name: "Teaching Notes",
-    icon: NotebookPen,
-    color: "bg-purple-500",
-    hoverColor: "hover:bg-purple-600",
-    description: "Teacher's notes and guidelines for effective Hindi instruction",
-    link: "/9th-hindi-teaching-notes",
-  },
-  {
-    name: "Diaries",
-    icon: BookMarked,
-    color: "bg-orange-500",
-    hoverColor: "hover:bg-orange-600",
-    description: "Daily and weekly planning diaries for systematic learning",
-    link: "/9th-hindi-diaries",
-  },
-  {
+    {
+      name: "Lesson Plans",
+      icon: BookOpen,
+      color: "bg-blue-500",
+      hoverColor: "hover:bg-blue-600",
+      description: "Detailed lesson plans for 9th class Hindi curriculum",
+      link: "/9th-hindi-lesson-plans",
+    },
+    {
+      name: "Study Materials",
+      icon: FileText,
+      color: "bg-green-500",
+      hoverColor: "hover:bg-green-600",
+      description: "Comprehensive study materials covering all topics in the syllabus",
+      link: "/9th-hindi-study-materials",
+    },
+    {
+      name: "Teaching Notes",
+      icon: NotebookPen,
+      color: "bg-purple-500",
+      hoverColor: "hover:bg-purple-600",
+      description: "Teacher's notes and guidelines for effective Hindi instruction",
+      link: "/9th-hindi-teaching-notes",
+    },
+    {
+      name: "Diaries",
+      icon: BookMarked,
+      color: "bg-orange-500",
+      hoverColor: "hover:bg-orange-600",
+      description: "Daily and weekly planning diaries for systematic learning",
+      link: "/9th-hindi-diaries",
+    },
+    {
+      name: "Model Papers",
+      icon: FileSpreadsheet,
+      color: "bg-red-500",
+      hoverColor: "hover:bg-red-600",
+      description: "Sample question papers and model answers for exam preparation",
+      link: "/9th-hindi-model-papers",
+    },
+    {
     name: "SA Model Papers",
     icon: FileSpreadsheet,
     color: "bg-red-500",
@@ -47,7 +55,8 @@ export default function NinthHindi() {
     description: "Summative Assessment Model Papers for Class 9 Hindi",
     link: "/9th-hindi-sa-model-papers",
   },
-]
+
+  ]
 
   return (
     <div className="min-h-screen bg-white">
