@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hindi8thMaterials() {
   const materialData = [
-    {
+        {
       name: "ज्ञान हमको दीजिए",
       link: "https://drive.google.com/file/d/1OVQcJG49i3FSm_0FNtE_evcqdBVBhlU2/view?usp=sharing",
     },
@@ -42,15 +42,15 @@ export default function Hindi8thMaterials() {
     },
     {
       name: "कबीर की वाणी",
-      link: "https://drive.google.com/file/d/1JbWduhA9nJnFq4y3BVoAlunJPO2hHL8i/view?usp=sharing",
+      link: "/7th-hindi-assignment-10",
     },
     {
       name: "सफलता का मंत्र",
-      link: "https://drive.google.com/file/d/1efK3llCR-LtqqAbz66ZnmnDpldwIe1GI/view?usp=sharing",
+      link: "/7th-hindi-assignment-11",
     },
     {
       name: "कोंडापल्ली की यात्रा",
-      link: "https://drive.google.com/file/d/12ho9SE77WysdvNnCHCynFI2whSBGt5Eq/view?usp=sharing",
+      link: "/7th-hindi-assignment-12",
     },
   ]
 
