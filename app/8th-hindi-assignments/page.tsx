@@ -24,6 +24,18 @@ export default function Hindi8thMaterials() {
       name: "मित्र को पत्र",
       link: "https://drive.google.com/file/d/1TsMMMQpGW2TaWOQk1Mryk5vYLXbqqXjZ/view?usp=sharing",
     },
+    {
+      name: "जो देखकर भी नहीं देख सकते",
+      link: "/8th-hindi-assignment-10",
+    },
+    {
+      name: "जभाई का प्रेम",
+      link: "/8th-hindi-assignment-11",
+    },
+    {
+      name: "मधुर वाणी",
+      link: "/8th-hindi-assignment-12",
+    },
   ]
 
   return (
