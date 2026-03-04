@@ -62,6 +62,14 @@ export default function TenthHindi() {
       link: "/10th-hindi-model-papers-keys",
     },
     {
+      name: "Grand Test Papers",
+      icon: FileSpreadsheet,
+      color: "bg-red-500",
+      hoverColor: "hover:bg-red-600",
+      description: "Sample question papers and model answers for exam preparation",
+      link: "/10th-hindi-grand-test-papers",
+    },
+    {
   name: "Activities",
   icon: CalendarCheck,
   color: "bg-teal-500",
