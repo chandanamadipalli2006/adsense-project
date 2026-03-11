@@ -249,7 +249,7 @@ export default function HindiCategories() {
             <section className="bg-gradient-to-br from-emerald-50 to-blue-50 py-20">
                 <div className="container mx-auto text-center px-6">
                     <h1 className="text-5xl font-bold text-gray-900 mb-4">
-                        Hindi Learning <span className="text-emerald-600">Categories</span>
+                        भाषा की बात  <span className="text-emerald-600">Activities Key</span>
                     </h1>
                     <p className="text-xl text-gray-600">
                         Lessons • Grammar • Practice Materials
