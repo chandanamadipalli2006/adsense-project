@@ -16,7 +16,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export default function HindiCategories() {
     const resources = [
         {
-            name: "Baraste Badal",
+            name: "बरसते बादल",
             icon: BookOpen,
             color: "bg-blue-500",
             hoverColor: "hover:bg-blue-600",
@@ -24,7 +24,7 @@ export default function HindiCategories() {
             link: "/baraste-badal",
         },
         {
-            name: "Eidgah",
+            name: "ईदगाह",
             icon: BookOpen,
             color: "bg-green-500",
             hoverColor: "hover:bg-green-600",
@@ -32,7 +32,7 @@ export default function HindiCategories() {
             link: "/eidgah",
         },
         {
-            name: "Hum Bharatvasi",
+            name: "हम भारतवासी",
             icon: BookOpen,
             color: "bg-purple-500",
             hoverColor: "hover:bg-purple-600",
@@ -40,7 +40,7 @@ export default function HindiCategories() {
             link: "/hum-bharatvasi",
         },
         {
-            name: "Kan Kan Ka Adhikari",
+            name: "कण-कण का अधिकारी",
             icon: BookOpen,
             color: "bg-orange-500",
             hoverColor: "hover:bg-orange-600",
@@ -48,7 +48,7 @@ export default function HindiCategories() {
             link: "/kan-kan-ka-adhikari",
         },
         {
-            name: "Lokgeet",
+            name: "लोकगीत",
             icon: BookOpen,
             color: "bg-pink-500",
             hoverColor: "hover:bg-pink-600",
@@ -56,7 +56,7 @@ export default function HindiCategories() {
             link: "/lokgeet",
         },
         {
-            name: "Hindi at International Level",
+            name: "अंतरराष्ट्रीय स्तर पर हिंदी",
             icon: Library,
             color: "bg-teal-500",
             hoverColor: "hover:bg-teal-600",
@@ -64,7 +64,7 @@ export default function HindiCategories() {
             link: "/hindi-international-level",
         },
         {
-            name: "Bhakti Pad",
+            name: "भक्ति पद",
             icon: BookMarked,
             color: "bg-red-500",
             hoverColor: "hover:bg-red-600",
@@ -72,7 +72,7 @@ export default function HindiCategories() {
             link: "/bhakti-pad",
         },
         {
-            name: "Foundation of Swarajya",
+            name: "स्वराज्य की नींव",
             icon: BookMarked,
             color: "bg-indigo-500",
             hoverColor: "hover:bg-indigo-600",
@@ -80,7 +80,7 @@ export default function HindiCategories() {
             link: "/foundation-of-swarajya",
         },
         {
-            name: "Dakshini Ganga Godavari",
+            name: "दक्षिणी गंगा गोदावरी",
             icon: BookMarked,
             color: "bg-yellow-500",
             hoverColor: "hover:bg-yellow-600",
@@ -88,7 +88,7 @@ export default function HindiCategories() {
             link: "/dakshini-ganga-godavari",
         },
         {
-            name: "Neeti Dohe",
+            name: "नीति दोहे",
             icon: BookMarked,
             color: "bg-cyan-500",
             hoverColor: "hover:bg-cyan-600",
@@ -96,7 +96,7 @@ export default function HindiCategories() {
             link: "/neeti-dohe",
         },
         {
-            name: "Water is Life",
+            name: "जल ही जीवन है",
             icon: BookOpen,
             color: "bg-sky-500",
             hoverColor: "hover:bg-sky-600",
@@ -104,7 +104,7 @@ export default function HindiCategories() {
             link: "/water-is-life",
         },
         {
-            name: "Earth Questions Space Answers",
+            name: "धरती के सवाल और अंतरिक्ष के जवाब",
             icon: BookOpen,
             color: "bg-lime-500",
             hoverColor: "hover:bg-lime-600",
@@ -113,7 +113,7 @@ export default function HindiCategories() {
         },
 
         {
-            name: "Tatsam and Tadbhav",
+            name: "तत्सम और तद्भव",
             icon: Type,
             color: "bg-purple-500",
             hoverColor: "hover:bg-purple-600",
@@ -121,7 +121,7 @@ export default function HindiCategories() {
             link: "/tatsam-tadbhav",
         },
         {
-            name: "Verb (Kriya)",
+            name: "क्रिया",
             icon: PenTool,
             color: "bg-green-500",
             hoverColor: "hover:bg-green-600",
@@ -129,7 +129,7 @@ export default function HindiCategories() {
             link: "/kriya",
         },
         {
-            name: "Numbers",
+            name: "गिनती (अंक)",
             icon: ListOrdered,
             color: "bg-orange-500",
             hoverColor: "hover:bg-orange-600",
@@ -137,7 +137,7 @@ export default function HindiCategories() {
             link: "/numbers",
         },
         {
-            name: "Karaka",
+            name: "कारक",
             icon: FileText,
             color: "bg-blue-500",
             hoverColor: "hover:bg-blue-600",
@@ -145,7 +145,7 @@ export default function HindiCategories() {
             link: "/karaka",
         },
         {
-            name: "Synonyms",
+            name: "पर्यायवाची शब्द",
             icon: FileText,
             color: "bg-red-500",
             hoverColor: "hover:bg-red-600",
@@ -153,7 +153,7 @@ export default function HindiCategories() {
             link: "/synonyms",
         },
         {
-            name: "Antonyms",
+            name: "विलोम शब्द",
             icon: FileText,
             color: "bg-teal-500",
             hoverColor: "hover:bg-teal-600",
@@ -161,7 +161,7 @@ export default function HindiCategories() {
             link: "/antonyms",
         },
         {
-            name: "Samasa",
+            name: "समास",
             icon: FileText,
             color: "bg-indigo-500",
             hoverColor: "hover:bg-indigo-600",
@@ -169,7 +169,7 @@ export default function HindiCategories() {
             link: "/samasa",
         },
         {
-            name: "Sandhi Viched",
+            name: "संधि विच्छेद",
             icon: FileText,
             color: "bg-pink-500",
             hoverColor: "hover:bg-pink-600",
@@ -177,7 +177,7 @@ export default function HindiCategories() {
             link: "/sandhi-viched",
         },
         {
-            name: "Prefixes",
+            name: "उपसर्ग",
             icon: FileText,
             color: "bg-yellow-500",
             hoverColor: "hover:bg-yellow-600",
@@ -185,7 +185,7 @@ export default function HindiCategories() {
             link: "/prefixes",
         },
         {
-            name: "Suffixes",
+            name: "प्रत्यय",
             icon: FileText,
             color: "bg-cyan-500",
             hoverColor: "hover:bg-cyan-600",
@@ -193,7 +193,7 @@ export default function HindiCategories() {
             link: "/suffixes",
         },
         {
-            name: "Idioms",
+            name: "मुहावरे",
             icon: FileText,
             color: "bg-green-600",
             hoverColor: "hover:bg-green-700",
@@ -201,7 +201,7 @@ export default function HindiCategories() {
             link: "/idioms",
         },
         {
-            name: "Gender",
+            name: "लिंग",
             icon: FileText,
             color: "bg-purple-600",
             hoverColor: "hover:bg-purple-700",
@@ -209,7 +209,7 @@ export default function HindiCategories() {
             link: "/gender",
         },
         {
-            name: "Number",
+            name: "वचन",
             icon: FileText,
             color: "bg-blue-600",
             hoverColor: "hover:bg-blue-700",
@@ -217,7 +217,7 @@ export default function HindiCategories() {
             link: "/number",
         },
         {
-            name: "Tense",
+            name: "काल",
             icon: FileText,
             color: "bg-orange-600",
             hoverColor: "hover:bg-orange-700",
@@ -225,7 +225,7 @@ export default function HindiCategories() {
             link: "/tense",
         },
         {
-            name: "Correct Word Forms",
+            name: "शुद्ध रूप",
             icon: FileText,
             color: "bg-red-600",
             hoverColor: "hover:bg-red-700",
@@ -233,7 +233,7 @@ export default function HindiCategories() {
             link: "/correct-word-forms",
         },
         {
-            name: "Adverbs",
+            name: "क्रिया विशेषण",
             icon: FileText,
             color: "bg-teal-600",
             hoverColor: "hover:bg-teal-700",
