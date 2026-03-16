@@ -91,7 +91,7 @@ export default function HindiActivities() {
                       rel="noopener noreferrer"
                     >
                       <Button className="w-full bg-rose-600 hover:bg-rose-700 text-white">
-                        View Activities
+                        Play Activity
                       </Button>
                     </a>
                   )}
