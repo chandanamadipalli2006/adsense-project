@@ -20,6 +20,18 @@ export default function HindiActivities() {
       name: "Kan-Kan ka Adhikari",
       slug: "kan-kan-ka-adhikari-activities",
     },
+    {
+      name: "SCERT-1",
+      link: "https://wordwall.net/resource/109513689",
+    },
+    {
+      name: "SCERT-2",
+      link: "https://wordwall.net/resource/109512340",
+    },
+    {
+      name: "SCERT-3",
+      link: "https://wordwall.net/resource/109524528",
+    },
   ]
 
   return (
@@ -31,7 +43,9 @@ export default function HindiActivities() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               Get Free And Quality <span className="text-rose-600">Online Education</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-8">Learn • Practice • Test</p>
+            <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-8">
+              Learn • Practice • Test
+            </p>
           </div>
         </div>
       </section>
@@ -40,7 +54,9 @@ export default function HindiActivities() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Hindi Activities</h3>
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+              Hindi Activities
+            </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {activityData.map((activity, index) => (
@@ -51,15 +67,33 @@ export default function HindiActivities() {
                   <div className="flex items-center justify-center w-12 h-12 bg-rose-100 rounded-full mb-4 text-rose-600 font-bold text-lg">
                     {index + 1}
                   </div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">{activity.name}</h4>
+
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                    {activity.name}
+                  </h4>
+
                   <p className="text-gray-600 mb-4">
                     Interactive Hindi learning activity for better understanding
                   </p>
-                  <Link href={`/10th-hindi-activities/${activity.slug}`}>
-                    <Button className="w-full bg-rose-600 hover:bg-rose-700 text-white">
-                      View Activities
-                    </Button>
-                  </Link>
+
+                  {/* Button Logic */}
+                  {activity.slug ? (
+                    <Link href={`/10th-hindi-activities/${activity.slug}`}>
+                      <Button className="w-full bg-rose-600 hover:bg-rose-700 text-white">
+                        View Activities
+                      </Button>
+                    </Link>
+                  ) : (
+                    <a
+                      href={activity.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button className="w-full bg-rose-600 hover:bg-rose-700 text-white">
+                        View Activities
+                      </Button>
+                    </a>
+                  )}
                 </div>
               ))}
             </div>
