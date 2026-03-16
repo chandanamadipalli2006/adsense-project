@@ -5,6 +5,18 @@ import { Button } from "@/components/ui/button"
 export default function HindiActivities() {
   const activityData = [
     {
+      name: "SCERT-1",
+      link: "https://wordwall.net/resource/109513689",
+    },
+    {
+      name: "SCERT-2",
+      link: "https://wordwall.net/resource/109512340",
+    },
+    {
+      name: "SCERT-3",
+      link: "https://wordwall.net/resource/109524528",
+    },
+    {
       name: "Baraste Badal",
       slug: "baraste-badal-activities",
     },
@@ -20,18 +32,7 @@ export default function HindiActivities() {
       name: "Kan-Kan ka Adhikari",
       slug: "kan-kan-ka-adhikari-activities",
     },
-    {
-      name: "SCERT-1",
-      link: "https://wordwall.net/resource/109513689",
-    },
-    {
-      name: "SCERT-2",
-      link: "https://wordwall.net/resource/109512340",
-    },
-    {
-      name: "SCERT-3",
-      link: "https://wordwall.net/resource/109524528",
-    },
+    
   ]
 
   return (
