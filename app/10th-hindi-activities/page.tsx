@@ -5,15 +5,15 @@ import { Button } from "@/components/ui/button"
 export default function HindiActivities() {
   const activityData = [
     {
-      name: "SCERT-1",
+      name: "SCERT-1 (Bit 16 to 30)",
       link: "https://wordwall.net/resource/109513689",
     },
     {
-      name: "SCERT-2",
+      name: "SCERT-2 (Bit 16 to 30)",
       link: "https://wordwall.net/resource/109512340",
     },
     {
-      name: "SCERT-3",
+      name: "SCERT-3 (Bit 16 to 30)",
       link: "https://wordwall.net/resource/109524528",
     },
     {
