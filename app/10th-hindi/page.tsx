@@ -102,6 +102,14 @@ export default function TenthHindi() {
       description: "Sample question papers and model answers for exam preparation",
       link: "/10th-hindi-basha-ki-baath",
     },
+    {
+      name: "1 To 12 Lesson Key",
+      icon: CalendarCheck,
+      color: "bg-teal-500",
+      hoverColor: "hover:bg-teal-600",
+      description: "Interactive classroom and homework activities for practice and engagement",
+      link: "/10th-hindi-all-lessons-key",
+    },
 
 
   ]
