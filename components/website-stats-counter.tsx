@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { Eye } from "lucide-react"
 
 export default function WebsiteStatsCounter() {
-  const [totalViews, setTotalViews] = useState(533482)
+  const [totalViews, setTotalViews] = useState(639805)
 
   useEffect(() => {
     const storedViews = localStorage.getItem("greenera-total-views")

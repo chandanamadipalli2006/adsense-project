@@ -10,7 +10,7 @@ export default function PageViewTracker() {
     const incrementPageView = () => {
       console.log("[v0] Page view tracker triggered for:", pathname)
 
-      const INITIAL_COUNT = 533482
+      const INITIAL_COUNT = 639805
       const currentViews = localStorage.getItem("greenera-total-views")
 
       // If no stored value or stored value is less than our initial count, reset to initial
