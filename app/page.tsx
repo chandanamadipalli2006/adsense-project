@@ -115,6 +115,7 @@ export default function HomePage() {
             </Card>
 
             {/* 10th Class */}
+            {/* 10th Class */}
             <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-emerald-200">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -122,22 +123,37 @@ export default function HomePage() {
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">10th Class</CardTitle>
               </CardHeader>
+
               <CardContent className="text-center">
                 <CardDescription className="text-gray-600 mb-8">
-                  Complete curriculum for Class 10 students with comprehensive study materials in Telugu and Hindi
+                  Complete curriculum for Class 10 students with comprehensive study materials in Telugu, Hindi, and English
                   languages.
                 </CardDescription>
+
                 <div className="px-4 space-y-4">
+
+                  {/* Telugu Button */}
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
                     <Languages className="h-4 w-4 mr-2" />
                     Telugu Content
                   </Button>
+
+                  {/* Hindi Button */}
                   <Link href="/10th-hindi" className="block w-full">
                     <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Content
                     </Button>
                   </Link>
+
+                  {/* ✅ English Button (UPDATED) */}
+                  <Link href="/10th-english" className="block w-full">
+                    <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
+                      <Languages className="h-4 w-4 mr-2" />
+                      English Content
+                    </Button>
+                  </Link>
+
                 </div>
               </CardContent>
             </Card>
