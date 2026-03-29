@@ -6,25 +6,41 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export default function TenthSocialActivities() {
     const activities = [
         {
-            name: "SOCIAL MODEL ACTIVITY 1",
+            name: "SCERT Model Paper - 1",
+            link: "https://wordwall.net/resource/110321999",
+            color: "from-green-500 to-emerald-500",
+        },
+        {
+            name: "SCERT Model Paper - 2",
+            link: "https://wordwall.net/resource/110322257",
+            color: "from-green-500 to-emerald-500",
+        },
+        {
+            name: "SCERT Model Paper - 3",
+            link: "https://wordwall.net/resource/110322403",
+            color: "from-green-500 to-emerald-500",
+        },        
+        {
+            name: "Map Pointing Practice - 1",
             link: "https://wordwall.net/resource/110312960",
             color: "from-blue-500 to-indigo-500",
         },
         {
-            name: "SOCIAL MODEL ACTIVITY 2",
+            name: "Map Pointing Practice - 2",
             link: "https://wordwall.net/resource/110313416",
             color: "from-blue-500 to-indigo-500",
         },
         {
-            name: "SOCIAL MODEL ACTIVITY 3",
+            name: "Map Pointing Practice - 3",
             link: "https://wordwall.net/resource/110313538",
             color: "from-blue-500 to-indigo-500",
         },
         {
-            name: "SOCIAL MODEL ACTIVITY 4",
+            name: "Map Pointing Practice - 4",
             link: "https://wordwall.net/resource/110313690",
             color: "from-blue-500 to-indigo-500",
-        }
+        },
+        
     ]
 
     return (
