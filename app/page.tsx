@@ -168,6 +168,13 @@ export default function HomePage() {
                     </Button>
                   </Link>
 
+                  <Link href="/10th-social" className="block w-full">
+                    <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
+                      <Languages className="h-4 w-4 mr-2" />
+                      Social Content
+                    </Button>
+                  </Link>
+
                 </div>
               </CardContent>
             </Card>
