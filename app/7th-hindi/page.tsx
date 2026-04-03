@@ -53,6 +53,14 @@ export default function SeventhHindi() {
       description: "Lesson wise assignments for 7th class students",
       link: "/7th-hindi-assignments",
     },
+    {
+      name: "SA - 2 Model Papers",
+      icon: FileSpreadsheet,
+      color: "bg-indigo-500",
+      hoverColor: "hover:bg-indigo-600",
+      description: "Summative Assessment 2 model papers for exam preparation",
+      link: "/7th-hindi-sa-2-model-papers",
+    }
   ]
 
   return (
