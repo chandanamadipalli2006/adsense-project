@@ -30,24 +30,44 @@ export default function HindiActivities() {
           <div className="grid md:grid-cols-2 gap-10">
 
             {/* Vowels Card */}
-            <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl p-8 flex flex-col justify-between animate-glowBlink">
+            {/* Vowels Card (Color Enhanced 🔥) */}
+            <div className="relative overflow-hidden rounded-2xl p-[2px] animate-glowBlink">
 
-              <div>
-                <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                  <BookOpen className="text-orange-400" />
-                  <span className="text-orange-300">Vowels & Consonants</span>
-                </h2>
+              {/* Gradient Border Glow */}
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 blur-xl opacity-70 animate-pulse"></div>
 
-                <p className="text-gray-300 mb-6">
-                  Practice Hindi स्वर (Vowels) and व्यंजन (Consonants).
-                </p>
+              {/* Main Card */}
+              <div className="relative bg-black/60 backdrop-blur-xl border border-white/20 rounded-2xl p-8 flex flex-col justify-between h-full">
+
+                {/* Floating Glow Circles */}
+                <div className="absolute top-[-30px] left-[-30px] w-24 h-24 bg-cyan-400 rounded-full blur-3xl opacity-30 animate-ping"></div>
+                <div className="absolute bottom-[-30px] right-[-30px] w-24 h-24 bg-purple-500 rounded-full blur-3xl opacity-30 animate-ping"></div>
+
+                <div>
+                  <h2 className="text-2xl font-extrabold mb-4 flex items-center gap-2">
+                    <BookOpen className="text-cyan-300 animate-bounce" />
+
+                    {/* 🔥 Changed text gradient */}
+                    <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-400 text-transparent bg-clip-text">
+                      Vowels & Consonants
+                    </span>
+                  </h2>
+
+                  {/* 🔥 Softer readable text */}
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    Practice Hindi <span className="text-cyan-300 font-semibold">स्वर</span> (Vowels)
+                    and <span className="text-purple-300 font-semibold">व्यंजन</span> (Consonants)
+                    in a fun and interactive way.
+                  </p>
+                </div>
+
+                {/* 🔥 Button stays warm → contrast maintained */}
+                <Link href="/hindi-vowels-consonants-activities">
+                  <Button className="w-full bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 text-black font-extrabold animate-glowBlink tracking-wide">
+                    🚀 Start Learning Now
+                  </Button>
+                </Link>
               </div>
-
-              <Link href="/hindi-vowels-consonants-activities">
-                <Button className="w-full bg-gradient-to-r from-yellow-300 to-orange-400 text-black font-bold animate-glowBlink">
-                  View Activities 🚀
-                </Button>
-              </Link>
             </div>
 
             {/* Class Activities */}
