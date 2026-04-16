@@ -60,8 +60,37 @@ export default function HomePage() {
             </p>
           </div>
           
-
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Activities Section */}
+            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-emerald-200">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <FileText className="h-8 w-8 text-white" />
+                </div>
+                <CardTitle className="text-xl font-bold text-gray-900">Activities</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <CardDescription className="text-gray-600 mb-8">
+                  Interactive activities and practice exercises available in both Telugu and Hindi to enhance your
+                  learning experience.
+                </CardDescription>
+                <div className="px-4 space-y-4">
+                  <Link href="/telugu-activities" className="block w-full">
+                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
+                      <Languages className="h-4 w-4 mr-2" />
+                      Telugu Activities
+                    </Button>
+                  </Link>
+                  <Link href="/hindi-activities" className="block w-full">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                      <Languages className="h-4 w-4 mr-2" />
+                      Hindi Activities
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
             {/* ✅ POLYCET MOCK TEST CARD */}
             <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-indigo-200">
               <CardHeader className="text-center pb-4">
@@ -109,33 +138,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* Activities Section */}
-            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-emerald-200">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <FileText className="h-8 w-8 text-white" />
-                </div>
-                <CardTitle className="text-xl font-bold text-gray-900">Activities</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
-                  Interactive activities and practice exercises available in both Telugu and Hindi to enhance your
-                  learning experience.
-                </CardDescription>
-                <div className="px-4 space-y-4">
-                  <Link href="/telugu-activities" className="block w-full">
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
-                      <Languages className="h-4 w-4 mr-2" />
-                      Telugu Activities
-                    </Button>
-                  </Link>
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
-                    <Languages className="h-4 w-4 mr-2" />
-                    Hindi Activities
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+            
 
             {/* 10th Class */}
             {/* 10th Class */}
