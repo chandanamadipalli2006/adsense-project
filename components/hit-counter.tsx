@@ -24,7 +24,7 @@ export default function HitCounter() {
               Total Page Views
             </p>
             <p className="text-5xl font-extrabold text-gray-900 bg-gradient-to-r from-emerald-600 via-blue-600 to-purple-600 text-transparent bg-clip-text tracking-tight">
-              {hits.toLocaleString()}
+              {hits.toLocaleString("en-IN")}
             </p>
           </div>
         </div>

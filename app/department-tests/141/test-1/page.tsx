@@ -260,18 +260,6 @@ const questions = [
         ],
         answer: 0,
     },
-    {
-        id: 20,
-        question:
-            "What is the procedure to be remove from the office to the Comptroller and Auditor-General?",
-        options: [
-            "Like manner and on the like ground as a Judge of the Supreme Court",
-            "Like manner and on the like ground as a Judge of the High Court",
-            "Like manner and on the like ground as a Speaker of Lok Sabha",
-            "No option is correct",
-        ],
-        answer: 0,
-    },
 
     {
         id: 21,

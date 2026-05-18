@@ -41,7 +41,7 @@ export default function WebsiteStatsCounter() {
             </div>
             <div className="text-center">
               <p className="text-sm font-medium text-gray-600 uppercase tracking-wide mb-2">Total Website Views</p>
-              <p className="text-4xl font-bold text-gray-900">{totalViews.toLocaleString()}</p>
+              <p className="text-4xl font-bold text-gray-900">{totalViews.toLocaleString("en-IN")}</p>
               <p className="text-xs text-gray-500 mt-2">Across all pages</p>
             </div>
           </div>
