@@ -82,18 +82,7 @@ export default function Department141Page() {
                                                 </Button>
                                             </Link>
 
-                                            {/* View Document Button */}
-                                            <Link
-                                                href={`/document-viewer?file=${encodeURIComponent(test.document)}`}
-                                            >
-                                                <Button
-                                                    variant="outline"
-                                                    className="w-full border-2 border-gray-300 hover:bg-gray-100 py-6 text-base"
-                                                >
-                                                    <FileText className="h-4 w-4 mr-2" />
-                                                    View Document
-                                                </Button>
-                                            </Link>
+                                            
                                         </div>
                                     </CardContent>
                                 </Card>

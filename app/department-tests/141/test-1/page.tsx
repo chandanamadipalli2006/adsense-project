@@ -45,7 +45,7 @@ const questions = [
     {
         id: 4,
         question:
-            "A Government Servant expired while in service after rendering (28) years of qualifying service. For calculation of Death-cum-Retirement Gratuity, how many years of weightage shall be added to the qualifying service?",
+            "A Government Servant expired while in service after rendering (28) years of qualifying service. For calculation of Death-cum-Retirement Gratuity, how many years of weightage shall be added?",
         options: [
             "Five years",
             "In this case no weightage shall be allowed",
@@ -99,7 +99,7 @@ const questions = [
             "Date of effect of sanction in the case of executive orders issued by the President?",
         options: [
             "Take effect from the date on which they are passed",
-            "Take effect from the date of issue of dispatch, letter or telegram containing the orders",
+            "Take effect from the date of issue of dispatch letter or telegram containing the orders",
             "No option is correct",
             "Date of presenting bill in the Parliament",
         ],
@@ -109,7 +109,7 @@ const questions = [
     {
         id: 9,
         question:
-            "The excess of receipts over expenditure in the three accounts of the state viz. Consolidated Fund, Contingency Fund and the Public Account taken together is known as ________?",
+            "The excess of receipts over expenditure in the three accounts of the state is known as ________?",
         options: [
             "Budget Deficit",
             "Budget Release Order",
@@ -122,7 +122,7 @@ const questions = [
     {
         id: 10,
         question:
-            "A Government servant who is declared by the appropriate medical authority to be permanently incapacitated for further service may be granted ___________.",
+            "A Government servant declared permanently incapacitated for further service may be granted ___________.",
         options: [
             "Compulsory Retirement Pension",
             "Retiring Pension",
@@ -131,6 +131,7 @@ const questions = [
         ],
         answer: 0,
     },
+
     {
         id: 11,
         question:
@@ -251,51 +252,50 @@ const questions = [
     {
         id: 20,
         question:
-            "What is the procedure to remove the Comptroller and Auditor-General from office?",
+            "Which of the following items are not included within the scope of clause (a) of Treasury Rule 7(2)",
         options: [
-            "Like manner and on the like ground as a Judge of the Supreme Court",
-            "Like manner and on the like ground as a Judge of the High Court",
-            "Like manner and on the like ground as Speaker of Lok Sabha",
-            "No option is correct",
+            "Charges for the conveyance of attached property",
+            "Commissions fees",
+            "Income from properties relating to endowments",
+            "Judgement debtors subsistency money",
         ],
-        answer: 0,
+        answer: 3,
     },
-
     {
         id: 21,
         question:
-            "Where a Government servant completes ______ or __________ before the date of retirement, the Head of Office shall send the service particulars to the Accountant General.",
+            "Pension Fund Regulatory and Development Authority of India was established on",
         options: [
-            "(20) years of service, left with (5) years",
-            "(25) years of service, left with (5) years",
-            "(20) years of service, left with (3) years",
-            "(25) years of service, left with (3) years",
+            "15th Aug 2003",
+            "14th Nov 2004",
+            "2nd Oct 2005",
+            "23rd Aug 2002",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 22,
         question:
-            "The age of service pensioner has crossed 81 years. How much percentage of Additional quantum of pension is allowed?",
+            "Which of the following is not general services as per budget manual",
         options: [
-            "50 percent of basic pension",
-            "30 percent of basic pension",
-            "15 percent of basic pension",
-            "40 percent of basic pension",
+            "Organs of state",
+            "Fiscal Service",
+            "Administrative Service",
+            "Transport and Communication",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 23,
         question:
-            "Which of the following source from which accounts along with supporting documents flow to the Accountant General?",
+            '"Vote on Account bill" can be passed by the legislative assembly under which Article of Constitution of India?',
         options: [
-            "All options are correct",
-            "Inter-State Suspense Accounts",
-            "District Treasuries and PAOs",
-            "Public Works Divisions",
+            "Article 206",
+            "Article 208",
+            "Article 209",
+            "Article 210",
         ],
         answer: 0,
     },
@@ -303,90 +303,90 @@ const questions = [
     {
         id: 24,
         question:
-            "Benefit of commutation of pension without medical examination is extended in which case?",
+            "The AP Fiscal Responsibility and Budget Management Act Came into existence in the year",
         options: [
-            "Retirement Pension",
-            "All options are correct",
-            "Voluntary Retirement after 20 years",
-            "Compensation Pension",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 25,
         question:
-            "A Government Servant expired leaving two legally wedded wives. Who is entitled to receive family pension?",
+            "The bill when consented by the governor is known as Appropriation Act under para of APBM",
         options: [
-            "No option is correct",
-            "Both wives equal shares",
-            "Second wife 50 percent",
-            "First wife full family pension",
+            "18-8",
+            "18-5",
+            "18-4",
+            "18-6",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 26,
         question:
-            "Which of the following statement is correct regarding Government audit?",
+            "Comptroller and Auditor General of India (CAG) shall be appointed by president under",
         options: [
-            "No option is correct",
-            "First principle is distinction between audit and administration",
-            "Both statements are correct",
-            "Object of audit is value for taxpayers money",
+            "Article 146",
+            "Article 147",
+            "Article 148",
+            "Article 149",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 27,
         question:
-            "The chief purpose of tax is _______.",
+            "Departmental enquiries regarding frauds, etc. in which government servants are involved is defined under which Article?",
         options: [
-            "To give privilege to taxpayers",
-            "To raise funds for Government",
-            "No option is correct",
-            "To reduce poverty",
+            "Article 298",
+            "Article 301",
+            "Article 303",
+            "Article 305",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 28,
         question:
-            "A copy of every order sanctioning expenditure should be communicated to ______.",
+            "Group Insurance scheme(GIS) revised rate of interest%?",
         options: [
-            "Accountant General / PAO Hyderabad",
-            "Government",
-            "No option is correct",
-            "Head of Department",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 29,
-        question:
-            "Who is competent to sanction tour advance to Non-Gazetted Officers?",
-        options: [
-            "Government",
-            "Tour advance cannot be sanctioned",
-            "Head of Office",
-            "Head of Department",
+            "9.7%",
+            "7.9%",
+            "8%",
+            "8.7%",
         ],
         answer: 1,
     },
 
     {
+        id: 29,
+        question:
+            "A Government employee retired from service on 31.12.2019 with qualifying service of 33 years-2 months-4 days with weightage of 5 years. His pay as on retirement is Rs.42490/- Calculate gratuity?",
+        options: [
+            "Rs.8,72,112/-",
+            "Rs.8,62,132/-",
+            "Rs.8,92,122/-",
+            "Rs.8,82,142/-",
+        ],
+        answer: 3,
+    },
+
+    {
         id: 30,
         question:
-            "Which of the following statement is true regarding T.A claims?",
+            "The Appropriation bill will be submitted to _______ for His/Her Assent",
         options: [
-            "All options are correct",
-            "Arrear claim should be supported by indemnity bond",
-            "No claim for arrears of T.A after revised scale fixation",
-            "T.A claims beyond 3 years should not be admitted",
+            "Governor",
+            "Speaker",
+            "Chief Minister",
+            "None of the above",
         ],
         answer: 0,
     },
@@ -394,38 +394,38 @@ const questions = [
     {
         id: 31,
         question:
-            "How much percent of surcharge collected on certain duties and taxes by Government of India shall form part of Consolidated Fund of India?",
+            "Pensions Drawn Bill APTC Form",
         options: [
-            "33 percent",
-            "50 percent",
-            "100 percent",
-            "25 percent",
+            "APTC Form-78",
+            "APTC Form-77",
+            "APTC Form-76",
+            "APTC Form -75",
         ],
-        answer: 1,
+        answer: 2,
     },
 
     {
         id: 32,
         question:
-            "Which of the following is the sub-division under Fiscal Services?",
+            "Minor work estimated cost should not exceed",
         options: [
-            "Other Fiscal Services",
-            "All options are correct",
-            "Collection of Taxes on Property",
-            "Collection of Taxes on Commodities",
+            "1000000",
+            "2000000",
+            "1500000",
+            "500000",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 33,
         question:
-            "Which particulars shall contain a bill presented at treasury as claim for payment?",
+            "A retired government servant must submit _____ certificate from drawing and disbursing officer as per G.O.Ms.No.787 Fin,(Pen-I) Dept., dt.10.4.2002 to treasury officer to receive pension",
         options: [
-            "All options are correct",
-            "Period for which claim relates",
-            "Head of account",
-            "Nature of claim and amount",
+            "No dues Certificate",
+            "First Pension Certificate",
+            "Family members Certificate",
+            "None of the above",
         ],
         answer: 0,
     },
@@ -433,25 +433,25 @@ const questions = [
     {
         id: 34,
         question:
-            "How many times Physical verification of stores shall be done at least in a year?",
+            "Anticipatory gratuity is sanctioned upto ________% of a retired government servant",
         options: [
-            "Thrice",
-            "No option is correct",
-            "Once",
-            "Twice",
+            "50%",
+            "75%",
+            "80%",
+            "90%",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 35,
         question:
-            "Minor Work means work estimated cost of which does not exceed _______.",
+            "The Treasury Bill Register should be reviewed by the Drawing and Disbursing Officer under APTC",
         options: [
-            "Rs. 3,00,000/-",
-            "Rs. 2,00,000/-",
-            "Rs. 5,00,000/-",
-            "Rs. 1,00,000/-",
+            "Once in Month",
+            "Once in a year",
+            "Bi-weekly",
+            "Once in six months",
         ],
         answer: 0,
     },
@@ -459,25 +459,25 @@ const questions = [
     {
         id: 36,
         question:
-            "The Telangana Contingency Fund is intended to provide advances for meeting _______.",
+            "Difference between Revenue expenditure and total revenue receipts is called as",
         options: [
-            "Day to day expenditure",
-            "Assembly Session expenditure",
-            "Unforeseen expenditure",
-            "No option is correct",
+            "Budget Deficit",
+            "Fiscal Deficit",
+            "Revenue Deficit",
+            "Primary Deficit",
         ],
-        answer: 0,
+        answer: 1,
     },
 
     {
         id: 37,
         question:
-            "When shall E.O.L period for undertaking job abroad count as qualifying service?",
+            "RPS 2015 came into existence.",
         options: [
-            "If contribution is paid by foreign employer",
-            "If contribution paid by employer or employee",
-            "No option is correct",
-            "If contribution paid by employee",
+            "01.08.2013",
+            "01.07.2014",
+            "01.07.2015",
+            "01.07.2013",
         ],
         answer: 0,
     },
@@ -485,25 +485,25 @@ const questions = [
     {
         id: 38,
         question:
-            "In which form can security be taken from Government servant or contractor?",
+            "CFMS stands for",
         options: [
-            "Post Office Savings Bank Deposits",
-            "Promissory notes",
-            "Any option is correct",
-            "Stock certificates",
+            "Centralised Funds Management System",
+            "Comprehensive Financial Management System",
+            "Capital Funds Management System",
+            "Centralised Financial Management System",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 39,
         question:
-            "What is the Standard code of Sub-head to denote Lump sum Provision?",
+            "The Role of the Finance commission in centre-state fiscal relations has been undetermined by the",
         options: [
-            "76",
-            "75",
-            "74",
-            "73",
+            "State Governments",
+            "Zonal Councils",
+            "Planning Commission",
+            "Central Government",
         ],
         answer: 0,
     },
@@ -511,37 +511,37 @@ const questions = [
     {
         id: 40,
         question:
-            "Which Article of Financial Code states that every Government servant should attend audit objections without delay?",
+            "The maximum limit of retirement gratuity under in RPS 2015 is",
         options: [
-            "Article 19",
-            "Article 59",
-            "Article 159",
-            "Article 259",
+            "8 lakhs",
+            "12 lakhs",
+            "15 lakhs",
+            "20 lakhs",
         ],
         answer: 1,
     },
     {
         id: 41,
         question:
-            "Who is the competent authority to remove a civil servant in the Government?",
+            "Pay Bill Register APTC Form",
         options: [
-            "Appointing authority",
-            "Both appointing authority and higher authority",
-            "Authority higher than appointing one",
-            "No option is correct",
+            "APTC Form-101",
+            "APTC Form-104",
+            "APTC Form-106",
+            "APTC Form-109",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 42,
         question:
-            "Net proceeds in relation to any tax or duty means the proceeds thereof _________ by the cost of collection?",
+            "The Treasury Rule in which instructions are issued with regard to forwarding of Specimen Signature of the drawing Officer to the Treasury?",
         options: [
-            "Reduced",
-            "No option is correct",
-            "Both Reduced and Increased",
-            "Increased",
+            "Treasury Rule 10",
+            "Treasury Rule 16",
+            "Treasury Rule 23",
+            "Treasury Rule 29",
         ],
         answer: 0,
     },
@@ -549,12 +549,12 @@ const questions = [
     {
         id: 43,
         question:
-            "In which of the following methods when works are executed?",
+            "Is family pensioner having employment on direct recruitment eligible for DR and IR in family pension?",
         options: [
-            "All options are correct",
-            "Schedule contract method",
-            "Lump-sum contract method",
-            "Departmental or piece-work contract method",
+            "Only DR",
+            "Only IR",
+            "Both DR and IR",
+            "No DR and IR",
         ],
         answer: 0,
     },
@@ -562,64 +562,63 @@ const questions = [
     {
         id: 44,
         question:
-            "No money shall be withdrawn from the Consolidated Fund of the State except under appropriation made by law passed in accordance with provisions of which Articles?",
+            "A Government employee retired from service on 31.12.2019 His Service pension is fixed at Rs.21245/- Calculate Commutation?",
         options: [
-            "210 and 211",
-            "212 and 213",
-            "205 and 206",
-            "207 and 209",
+            "Rs.8,25,786/-",
+            "Rs.8,35,592/-",
+            "Rs.8,45,665/-",
+            "Rs.8,70,128/-",
         ],
-        answer: 3,
+        answer: 2,
     },
 
     {
         id: 45,
         question:
-            "Which of the following expenditure is charged on the Consolidated Fund of the State?",
+            "Expenditure head 2051 represents",
         options: [
-            "Salaries and allowances of High Court Judges",
-            "Salaries of Speaker and Deputy Speaker",
-            "Governor emoluments and office expenditure",
-            "All options are correct",
+            "District Administration",
+            "Public Service Commission",
+            "Police",
+            "Jails",
         ],
-        answer: 0,
+        answer: 1,
     },
 
     {
         id: 46,
         question:
-            "The salaries and allowances of the Chairman and Deputy Chairman of Legislative Council shall be _______.",
+            "What is the minimum service period required for sanction of pension on voluntary retirement under Rule 43 of Andhra Pradesh Revised Pension Rules, 1980",
         options: [
-            "Charged on Contingency Fund",
-            "Charged on Consolidated Fund",
-            "Voted on Contingency Fund",
-            "Voted on Consolidated Fund",
+            "18 years",
+            "20 years",
+            "23 years",
+            "25 years",
         ],
-        answer: 0,
+        answer: 1,
     },
 
     {
         id: 47,
-        question:
-            "In which Treasury Rule permits that pension payable in India may be paid in any district of the state?",
+        question: "Match the following",
         options: [
-            "T.R. 12",
-            "T.R. 22",
-            "T.R. 27",
-            "T.R. 21",
+            "a-i, b-ii, c-iii, d-iv",
+            "a-iv, b-iii, c-ii, d-i",
+            "a-iii, b-i, c-iv, d-ii",
+            "a-iii, b-iv, c-i, d-ii",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 48,
         question:
-            "A Government servant expired while in service leaving Daughter aged 24 years, Daughter aged 22 years and Son aged 19 years. Who is entitled for family pension first?",
+            "CAG submits reports to President/Governor of a state under",
         options: [
-            "No one is eligible",
-            "Daughter aged 24 years",
-            "Son aged 19 years",
-            "Daughter aged 22 years",
+            "Article 150",
+            "Article 151",
+            "Article 152",
+            "Article 148",
         ],
         answer: 1,
     },
@@ -627,12 +626,12 @@ const questions = [
     {
         id: 49,
         question:
-            "Expenditure on payments made in satisfaction of any judgement, decree or award of Court is called _________?",
+            "A Security deposit taken from Government servant should be retained for at least _______ months? (Article 288 APFC Vol-1)",
         options: [
-            "Decretal amount",
-            "Debenture",
-            "Demand for grant",
-            "Deposit",
+            "3",
+            "6",
+            "9",
+            "12",
         ],
         answer: 0,
     },
@@ -640,12 +639,12 @@ const questions = [
     {
         id: 50,
         question:
-            "Who is the competent authority to relax Treasury Code rules?",
+            "The Family Beneficiary of the CPS Subscriber will submit the following Form to withdraw accumulated wealth pension",
         options: [
-            "Head of Department",
-            "District Collector",
-            "Government",
-            "Governor",
+            "Form S2",
+            "Form 103-GD",
+            "Form 101-GS",
+            "None of the above",
         ],
         answer: 1,
     },
@@ -653,64 +652,64 @@ const questions = [
     {
         id: 51,
         question:
-            "Treasury Officer is authorized to pass pay bills for temporary establishments continued beyond sanction up to?",
+            "Maximum days an Out Sourcing & Contract married woman employee eligible for maternity leave is",
         options: [
-            "two months",
-            "three months",
-            "one year",
-            "six months",
+            "14 Days",
+            "60 Days",
+            "120 Days",
+            "180 Days",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 52,
         question:
-            "Which type of tender system shall be adopted if total order value does not exceed Rs.20,000/-?",
+            "A Certificate to the effect that vehicle is receiving in good condition should be furnished under which Article of AP Financial code",
         options: [
-            "Limited Tender",
-            "Single Tender",
-            "No option is correct",
-            "Open Tender",
+            "Article 96",
+            "Article 97",
+            "Article 98",
+            "Article 99",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 53,
         question:
-            "Under which Article does Legislative Assembly have power to make grant in advance for expenditure?",
+            "Contingency fund of state may be established for",
         options: [
-            "207",
-            "208",
-            "206",
-            "209",
+            "Speaker",
+            "Council of minister",
+            "Legislature",
+            "Governor",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 54,
         question:
-            "A Government servant expired after 6 years of service. Last drawn pay Rs.1,62,070/-. Family pension amount?",
+            "The Major Head for claiming of Boster Scheme bill is",
         options: [
-            "Rs. 48,621/-",
-            "Rs. 81,035/-",
-            "No option is correct",
-            "Rs. 64,828/-",
+            "2202",
+            "2225",
+            "2235",
+            "2245",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 55,
         question:
-            "The Contingency Fund of the State is in the nature of an ______.",
+            "A Treasury Officer shall not honour a claim which he considers to be disputable under",
         options: [
-            "Bill",
-            "No option is correct",
-            "Voucher",
-            "Imprest",
+            "TR 18",
+            "TR 19",
+            "TR 20",
+            "TR 21",
         ],
         answer: 0,
     },
@@ -718,102 +717,102 @@ const questions = [
     {
         id: 56,
         question:
-            "In which T.S.T.C. Form shall anticipatory pension be claimed?",
+            "Minimum service required for getting Service Gratuity is as per APRPR, 1980 (Rule 46(1))",
         options: [
-            "T.S.T.C. Form 40",
-            "T.S.T.C. Form 47",
-            "T.S.T.C. Form 76",
-            "T.S.T.C. Form 75",
+            "5 years",
+            "10 years",
+            "20 Years",
+            "25 Years",
         ],
-        answer: 0,
+        answer: 1,
     },
 
     {
         id: 57,
         question:
-            "A denovo examination of expenditure incurred by a department is known as ________.",
+            "Under which Form of PWA code the Divisional officer prepares a monthly statement for each Major Head",
         options: [
-            "No option is correct",
-            "Plan",
-            "Zero based budgeting",
-            "Number Statements",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 58,
-        question:
-            "Who lays Annual Financial Statement before the Legislature of the State?",
-        options: [
-            "Speaker of Assembly",
-            "Governor",
-            "Opposition Leader",
-            "Chief Minister",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 59,
-        question:
-            "How shall the period of overstayed service of Class IV employee beyond superannuation be treated?",
-        options: [
-            "Regularized as fresh appointment",
-            "No option is correct",
-            "Regularized as re-employment",
-            "Ignored",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 60,
-        question:
-            "Principles of Financial propriety are laid down in which Article of Financial Code Volume I?",
-        options: [
-            "3",
-            "13",
-            "330",
-            "33",
-        ],
-        answer: 0,
-    },
-    {
-        id: 61,
-        question:
-            "In which article of Indian Constitution it is stated that no tax shall be levied or collected except by authority of law?",
-        options: [
-            "275",
-            "235",
-            "265",
-            "295",
+            "Form VII",
+            "Form VIII",
+            "Form IX",
+            "Form X",
         ],
         answer: 2,
     },
 
     {
+        id: 58,
+        question:
+            "The Governor has no power to return the money bill without her/his assent under Article _______of the Indian Constitution",
+        options: [
+            "Article 199",
+            "Article 200",
+            "Article 207",
+            "Article 210",
+        ],
+        answer: 3,
+    },
+
+    {
+        id: 59,
+        question:
+            "In cases where the pensioner desires to commute a portion of pension after the expiry of period of one year from the date of retirement, select the procedure for sanction",
+        options: [
+            "Medical examination of the District Medical & Health Officer concerned is compulsory",
+            "The pension sanctioning authority should sanction after medical examination conducted by the District Medical Board",
+            "The Head of the Department permission is required for medical examination",
+            "Seeks the Govt. permission for conduct of Medical examination",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 60,
+        question:
+            "Demands for grants are submitted to",
+        options: [
+            "Governor",
+            "Cabinet",
+            "Chief Minister",
+            "Legislative Assembly",
+        ],
+        answer: 3,
+    },
+    {
+        id: 61,
+        question:
+            "Match the following matchings are false",
+        options: [
+            "Article 202–Annual Financial Statement",
+            "Article 203-Procedure in Legislature with respect to estimates",
+            "Article 204- Appropriation Bills",
+            "Article 205-Consolidated fund of the State",
+        ],
+        answer: 1,
+    },
+
+    {
         id: 62,
         question:
-            "Important provisions in Telangana Civil Pensions (Commutation Rules, 1944) are laid down in ______.",
+            "Authority in which the additional quantum of pension to the pensioners/Family pensioners have been admitted",
         options: [
-            "No option is correct",
-            "Rule 45 of T.S.R.P.R.1980",
-            "Appendix-IV of T.S.R.P.R.1980",
-            "Article 441 of Telangana Pension Code",
+            "G.O.Ms.No.100 Finance (Pension-I) Department Dt.06.04.2010",
+            "G.O.Ms.No.66 Finance (HRM.VI) Department Dt.12.06.2015",
+            "G.O.Ms.No.51 Finance (HRM.VI) Department Dt.08.05.2015",
+            "None of the above",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 63,
         question:
-            "Every departmental authority should verify all securities periodically and at least _______.",
+            "PRAN in CPS stands for",
         options: [
-            "thrice in a year",
-            "every month",
-            "twice in a year",
-            "once in a year",
+            "Permanent Retirement Account Number",
+            "Public receipt Account Number",
+            "Provisional Receipt Account Number",
+            "Personal Receipt Account Number",
         ],
         answer: 0,
     },
@@ -821,25 +820,25 @@ const questions = [
     {
         id: 64,
         question:
-            "Resignation from a service or post entails ______.",
+            "The Prescribed sales tax certificate should be recorded on the invoices bill under",
         options: [
-            "forfeiture of future service",
-            "No option is correct",
-            "forfeiture of past and future service",
-            "forfeiture of past service",
+            "TR 16 - SR 19(v)",
+            "TR 16 - SR 2(s)",
+            "TR 16 - SR (9)",
+            "TR 16 - SR 2(h)",
         ],
-        answer: 0,
+        answer: 1,
     },
 
     {
         id: 65,
         question:
-            "Where a pensioner is drawing both family pension and service pension, Dearness Relief shall be entitled on ________.",
+            "Mr. Kumar Babu (Govt. servant) expired while in service on 14.12.2011 and his date of birth is 10.06.1954. Find out upto what date the enhanced family pension is payable?",
         options: [
-            "No option is correct",
-            "Only one pension whichever is beneficial",
-            "On two pensions",
-            "Only one pension whichever is less",
+            "13.12.2018",
+            "09.06.2019",
+            "31.05.2019",
+            "31.12.2018",
         ],
         answer: 0,
     },
@@ -847,12 +846,12 @@ const questions = [
     {
         id: 66,
         question:
-            "In which T.S.T.C. Form shall the challan be prepared?",
+            "A Government servant wishes to take retirement on completion of 33 years of qualifying service but before attaining 58 years of age shall give notice in writing to the appointing authority at least _____ months before the date he wishes to retire.",
         options: [
-            "T.S.T.C. Form 3",
-            "T.S.T.C. Form 4",
-            "T.S.T.C. Form 10",
-            "No option is correct",
+            "3 months",
+            "6 months",
+            "2 months",
+            "1 month",
         ],
         answer: 0,
     },
@@ -860,77 +859,77 @@ const questions = [
     {
         id: 67,
         question:
-            "In how many years shall vouchers pertaining to Land Acquisition be preserved?",
+            "The Government employee retired on superannuation. His qualifying service including weightage is 32 years 4 months. His last drawn basic pay Rs.53060. Calculate and find out service pension?",
         options: [
-            "Preserved permanently",
-            "Twenty years",
-            "Ten years",
-            "One year",
+            "Rs.26,129/-",
+            "Rs.26,125/-",
+            "Rs.26,132/-",
+            "None of the above",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 68,
         question:
-            "Claims pertaining to payments towards bus warrants shall be drawn in which bill form?",
+            "Under which Rule the case of serving employees/Pensioners whose whereabout not known is it be dealt with for sanction of family pension",
         options: [
-            "T.S.T.C. Form No. 52",
-            "No option is correct",
-            "T.S.T.C. Form No. 47",
-            "T.S.T.C. Form No. 58",
+            "U/R. 15",
+            "U/R. 14-B",
+            "U/R-14-C",
+            "U/R-3 & 4 above",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 69,
         question:
-            "Receipt Major Head of Road Transport Department is 1055. What is the Major Head of Expenditure?",
+            "Which of the following is correct regarding the recent enhancement of EHS regarding Pensioner as per G.O.Ms.No.54, HM & FW (I.1) Department Dated: 06-05-2020",
         options: [
-            "3055",
-            "4055",
-            "5055",
-            "2055",
+            "From 90/- to 180/- and 120/- to 240/-",
+            "From 90/- to 225/- and 120/- to 300/-",
+            "From 90/- to 200/- and 120/- to 300/-",
+            "From 90/- to 150/- and 120/- to 300/-",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 70,
         question:
-            "In P.R.C. 2020 the limit of Retirement Gratuity Rs.12,00,000/- has been raised to Rs. ________.",
+            "Receipt Head of Account of APGLI?",
         options: [
-            "Rs. 14,00,000/-",
-            "Rs. 20,00,000/-",
-            "Rs. 16,00,000/-",
-            "Rs. 15,00,000/-",
+            "8342-120-01",
+            "8011-105-01",
+            "8443-106-01",
+            "8448-102-02",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 71,
         question:
-            "In which Article of Financial Code are General Principles for enforcing responsibility for losses laid down?",
+            "Deposit Accounts Under G.O.Ms.No.43 were classified into how many categories",
         options: [
-            "297",
-            "300",
-            "298",
-            "299",
+            "4",
+            "3",
+            "5",
+            "2",
         ],
-        answer: 1,
+        answer: 0,
     },
 
     {
         id: 72,
         question:
-            "_______ may, in urgency, authorize and require a Treasury Officer to make payment?",
+            "The Comptroller and Auditor General of India have the authority of audit the accounts of",
         options: [
-            "A Gazetted Officer",
-            "No option is correct",
-            "A Drawing and Disbursing Officer",
-            "A Collector",
+            "Consolidated fund of India",
+            "The accumulated fund of the state",
+            "Each Union territory which have Legislative Assembly",
+            "All of the above",
         ],
         answer: 2,
     },
@@ -938,64 +937,63 @@ const questions = [
     {
         id: 73,
         question:
-            "A Government Servant retired on attaining age of 61 years. What commutation value expressed as number of years purchase shall be taken?",
+            "The detailed head for Fees, Fines & Refunds is",
         options: [
-            "8.371",
-            "7.982",
-            "No option is correct",
-            "8.093",
+            "330",
+            "340",
+            "350",
+            "360",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 74,
-        question:
-            "Taxes levied and collected by the Union and assigned to the States are _____?",
+        question: "Choose the correct option",
         options: [
-            "Duties in respect of succession to property other than agricultural land",
-            "All options are correct",
-            "Estate duty in respect of property other than agricultural land",
-            "Taxes on railway fares and freights",
+            "Both a and c",
+            "Both a and b",
+            "Both b and c",
+            "All the above",
         ],
-        answer: 0,
+        answer: 3,
     },
 
     {
         id: 75,
         question:
-            "In which of the following amounts no recoveries can be made?",
+            "Under detailed head 130-Office Expenses, the Sub Detailed head for drawl of Administrative expenses is",
         options: [
-            "Family Benefit Fund",
-            "All options are correct",
-            "Telangana Group Insurance Scheme",
-            "General Provident Fund and TSGLI",
+            "135",
+            "136",
+            "137",
+            "138",
         ],
-        answer: 0,
+        answer: 2,
     },
 
     {
         id: 76,
         question:
-            "Article _______ of Constitution provides that Comptroller and Auditor-General shall be appointed by the President.",
+            "Annual Valuation of Government promissory notes, etc defined under which Article?",
         options: [
-            "150",
-            "148",
-            "149",
-            "143",
+            "Article 287",
+            "Article 288",
+            "Article 289",
+            "Article 290",
         ],
-        answer: 1,
+        answer: 2,
     },
 
     {
         id: 77,
         question:
-            "Ways and Means wing of Finance Department keeps watch over the ______ cash balance of the State with RBI.",
+            "Government Accounts defined under which Rule of AP Treasury code",
         options: [
-            "Yearly",
-            "Quarterly",
-            "Monthly",
-            "Daily",
+            "Treasury Rule 2",
+            "Treasury Rule 18",
+            "Treasury Rule 22",
+            "Treasury Rule 32",
         ],
         answer: 0,
     },
@@ -1003,25 +1001,25 @@ const questions = [
     {
         id: 78,
         question:
-            "_______ system should ordinarily be adopted whenever estimated value of order is less than Rs.5,00,000/-",
+            "Authority in which the anticipatory pension to the extent of 90% instead of 4/10th of last pay drawn emoluments, those who are retired on or after 01.02.2010",
         options: [
-            "Open Tender",
-            "No option is correct",
-            "Limited Tender",
-            "Single Tender",
+            "G.O.Ms.No.186 Finance (Pension. I) Department Dt. 24.05.2010",
+            "G.O.Ms.No.598, GA (Spl.A) Department Dt.26.11.2009",
+            "G.O.Ms.No.438, GA (Spl.A) Department Dt.07.07.2008",
+            "None of the above",
         ],
-        answer: 0,
+        answer: 1,
     },
 
     {
         id: 79,
         question:
-            "Government property or right is sold by ________?",
+            "The director of treasuries and accounts or an authorised officer shall satisfy himself by periodical examination at least once in _____months kept under the joint lock and key of treasury strong room",
         options: [
-            "Both public auction and tender",
-            "Public auction",
-            "Tender",
-            "No option is correct",
+            "6 months",
+            "2 years",
+            "3 months",
+            "One year",
         ],
         answer: 0,
     },
@@ -1029,17 +1027,263 @@ const questions = [
     {
         id: 80,
         question:
-            "Which of the following statement is true regarding Retirement Gratuity?",
+            "Under which article of the constitution the Governor 'Cause to place' Annual financial statement before legislature",
         options: [
-            "No option is correct",
-            "Retirement Gratuity is not admissible to second wife without approval",
-            "Both statements are true",
-            "Relinquishment of share is not permissible",
+            "Article 202",
+            "Article 204",
+            "Article 205",
+            "Article 206",
         ],
         answer: 0,
     },
     {
         id: 81,
+        question:
+            "A Government employee retired from service on 31.03.2019 with qualifying service of 29 years -7 months -23 days without weightage of 5 years admissible. His pay as on retirement is Rs.73270/- Calculate normal family pension?",
+        options: [
+            "Rs.21981/-",
+            "Rs.20981/-",
+            "Rs.22981/-",
+            "Rs.24981/-",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 82,
+        question:
+            "The recovery from the contingent bills on account of pay/TA shall not be made under",
+        options: [
+            "TR 31 SR 2(a)",
+            "TR 4 SR 4",
+            "TR 16 - SR 19 (v)",
+            "TR 16 - SR 19 (vi)",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 83,
+        question:
+            "As per Budget Manual expenditure on maintenance and repair of Non-Residential buildings shall be classified under Minor Head?",
+        options: [
+            "Ordinary Repairs",
+            "Office Expenses",
+            "Special Repairs",
+            "Public Works",
+        ],
+        answer: 0,
+    },
+
+    {
+        id: 84,
+        question:
+            "To whom the comptroller and Auditor General of India submits his resignation letter?",
+        options: [
+            "Finance Minister",
+            "Lok Sabha Speaker",
+            "President of India",
+            "Prime Minister",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 85,
+        question:
+            "Issue of last Pay Certificate to a Government servant discussed in _________ of Treasury Rules",
+        options: [
+            "Treasury Rule 16",
+            "Treasury Rule 22 Instruction (1)",
+            "Treasury Rule 23 Instruction (1)",
+            "Treasury Rule 23 Instruction (4)",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 86,
+        question:
+            "Under APGLI scheme, what is the compulsory premium rate (in Rs.) for pay slab (in rupees) 14861-18030",
+        options: [
+            "250",
+            "350",
+            "450",
+            "600",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 87,
+        question:
+            "Minimum Provisional pension to be sanctioned shall not be less than _______% of the normal pension entitlement for a Govt. servant where departmental proceedings is pending.",
+        options: [
+            "50%",
+            "75%",
+            "85%",
+            "90%",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 88,
+        question:
+            "While working as Sr. Assistant, the Government servant expired on 31.03.2020, His wife requested for sanction of commutation as against the family pension of Rs.39540/-",
+        options: [
+            "Rs,9,41,198/-",
+            "Rs,9,25,948/-",
+            "Not admissible for sanction of commutation on Family pension",
+            "None of the above",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 89,
+        question:
+            "Employee Health scheme came into operational from",
+        options: [
+            "31st March, 2012",
+            "4th April 2012",
+            "14th November, 2014",
+            "5th December 2013",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 90,
+        question:
+            "Up to how many months the EOL on Private affairs can be counted for pension benefits?",
+        options: [
+            "24 months",
+            "36 months",
+            "48 months",
+            "None of the above",
+        ],
+        answer: 0,
+    },
+
+    {
+        id: 91,
+        question:
+            "The Treasury Rule in which instructions are issued with regard to forwarding of Specimen Signature of the drawing Officer to the Treasury?",
+        options: [
+            "Treasury Rule 10",
+            "Treasury Rule 16",
+            "Treasury Rule 23",
+            "Treasury Rule 29",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 92,
+        question:
+            "Group Insurance scheme came into existence from",
+        options: [
+            "01-11-1984",
+            "03-10-1985",
+            "01-12-1986",
+            "04-01-1987",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 93,
+        question:
+            "CFMS was developed by",
+        options: [
+            "PFRDA",
+            "APCFSS",
+            "APCYBER Treasury",
+            "AP Fiber net",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 94,
+        question:
+            "Which of the following first digit of a Major Head represent Revenue Receipts?",
+        options: [
+            "0 or 1",
+            "2 or 3",
+            "6 or 7",
+            "8",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 95,
+        question:
+            "while in service/duty contract or out sourcing employee has faced accidental death how much of Ex-gratia will be sanctioned to legal heirs",
+        options: [
+            "2 lakhs",
+            "3 lakhs",
+            "5 lakhs",
+            "10 lakhs",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 96,
+        question:
+            "APGLI scheme Insurable age is between?",
+        options: [
+            "18-52 years",
+            "21-54 years",
+            "21-53 years",
+            "22-54 years",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 97,
+        question:
+            "What is the maximum pay in revised pay scales 2015",
+        options: [
+            "1,20,950/-",
+            "1,10,850/-",
+            "1,10,950/-",
+            "1,10,750/-",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 98,
+        question: "Choose the correct combination",
+        options: [
+            "a, b, d",
+            "b, c, d",
+            "a, c, d",
+            "All the above",
+        ],
+        answer: 2,
+    },
+
+    {
+        id: 99,
+        question:
+            "Which rule states that every Government servant should exercise the same vigilance in respect of expenditure incurred from public money?",
+        options: [
+            "Article 3",
+            "Article 13",
+            "Article 33",
+            "Article 35",
+        ],
+        answer: 1,
+    },
+
+    {
+        id: 100,
         question:
             "The Treasury shall be under the general control of the ___________.",
         options: [
@@ -1049,253 +1293,6 @@ const questions = [
             "Governor",
         ],
         answer: 3,
-    },
-
-    {
-        id: 82,
-        question:
-            "Validity of sanction order of a provident fund advance is?",
-        options: [
-            "Six months",
-            "One-month",
-            "Three months",
-            "One year",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 83,
-        question:
-            "In the Classification of the Accounts ‘detailed head of account’ indicate __________?",
-        options: [
-            "The nature or form of expenditure",
-            "The scheme or organization",
-            "The function of Government",
-            "Grouping of functions",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 84,
-        question:
-            "In Indian Government Accounts and Audit, Three 'E's indicate?",
-        options: [
-            "Everything, Efficiency and Effectiveness",
-            "Economy, Efficiency and Effectiveness",
-            "Economy, Emergency and Effectiveness",
-            "Economy, Efficiency and Early",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 85,
-        question:
-            "Which allowances have been exempted from attachment by order of a Court?",
-        options: [
-            "All kinds of travelling allowances",
-            "All house-rent allowances",
-            "All conveyance allowances",
-            "All options are correct",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 86,
-        question:
-            "All appropriations lapse at the close of the ______.",
-        options: [
-            "No option is correct",
-            "Academic year",
-            "Calendar year",
-            "Financial year",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 87,
-        question:
-            "A Government Servant expired without nomination leaving widow daughter, father and mother. To whom is DCRG payable?",
-        options: [
-            "Equal shares to all",
-            "Mother",
-            "Widow daughter",
-            "Father",
-        ],
-        answer: 2,
-    },
-
-    {
-        id: 88,
-        question:
-            "Under which Article of Constitution no civil servant shall be dismissed without enquiry and reasonable opportunity?",
-        options: [
-            "312(2)",
-            "314(4)",
-            "311(2)",
-            "313(3)",
-        ],
-        answer: 2,
-    },
-
-    {
-        id: 89,
-        question:
-            "How many digit code number is assigned to Sub-major Head?",
-        options: [
-            "Four digit",
-            "Three digit",
-            "Two digit",
-            "Seven digit",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 90,
-        question:
-            "The amount available for day-to-day expenses of running the business is known as ______?",
-        options: [
-            "No option is correct",
-            "Working Capital",
-            "Running Capital",
-            "Paid up Capital",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 91,
-        question:
-            "Which of the following statement is true regarding fees?",
-        options: [
-            "All options are correct",
-            "Fees are paid for privilege",
-            "Payment of fee is voluntary",
-            "Fee may be charged for services rendered",
-        ],
-        answer: 3,
-    },
-
-    {
-        id: 92,
-        question:
-            "Transactions between Governments or departments shall be rounded to the ______.",
-        options: [
-            "nearest rupee",
-            "No option is correct",
-            "next rupee",
-            "multiple of 10",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 93,
-        question:
-            "A Government Servant joined pensionable service on 12th March 2002 and expired on 21st June 2002. How much family pension shall be allowed?",
-        options: [
-            "Rs.330/- p.m. w.e.f. 22nd June 2002",
-            "Rs.330/- p.m. w.e.f. 21st June 2002",
-            "No family pension",
-            "Rs.550/- p.m. w.e.f. 22nd June 2002",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 94,
-        question:
-            "Which item shall be reckoned towards emoluments for calculation of pension?",
-        options: [
-            "Stagnation increments",
-            "Personal pay",
-            "All options are correct",
-            "Notional pay",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 95,
-        question:
-            "Register of Bills shall be maintained in which T.S.T.C Form?",
-        options: [
-            "T.S.T.C Form No.70-D",
-            "T.S.T.C Form No.70-C",
-            "T.S.T.C Form No.70-A",
-            "T.S.T.C Form No.70-B",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 96,
-        question:
-            "The Accounts Officer for Army Administrative and Accounts unit is called ______.",
-        options: [
-            "Controller of Examination",
-            "Controller of Defense Accounts",
-            "Chief Controller",
-            "No option is correct",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 97,
-        question:
-            "If a Pensioner completes age of 70 years in August 2021, additional pension is admissible from ______.",
-        options: [
-            "1st August 2021",
-            "1st September 2021",
-            "1st September 2022",
-            "1st August 2022",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 98,
-        question:
-            "Any person serving in connection with affairs of the State and handling Government money is called ______?",
-        options: [
-            "Accountant General",
-            "Government Servant",
-            "No option is correct",
-            "Collector",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 99,
-        question:
-            "A Government Servant drawing Basic Pay Rs.52,720 with DA and HRA retired after 25 years service. How much DCRG is admissible?",
-        options: [
-            "Rs. 12,80,505/-",
-            "Rs. 9,08,925/-",
-            "Rs. 10,90,710/-",
-            "Rs. 16,00,000/-",
-        ],
-        answer: 0,
-    },
-
-    {
-        id: 100,
-        question:
-            "In which Form shall the Pay Bill Register be maintained in district offices in Telangana State?",
-        options: [
-            "T.S.T.C. Form 109",
-            "No option is correct",
-            "T.S.T.C. Form 108",
-            "T.S.T.C. Form 107",
-        ],
-        answer: 0,
     },
 ]
 
@@ -1374,9 +1371,6 @@ export default function ExamPage() {
             {/* Header */}
             <div className="bg-white shadow sticky top-0 z-50">
                 <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
-                    <h1 className="text-2xl font-bold text-blue-600">
-                        Telangana Departmental Test
-                    </h1>
 
                     <div className="bg-red-600 text-white px-6 py-2 rounded-xl text-xl font-bold">
                         {formatTime(timeLeft)}
