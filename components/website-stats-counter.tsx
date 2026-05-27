@@ -13,7 +13,7 @@ export default function WebsiteStatsCounter() {
         const data = await response.json()
 
         setTotalViews(data.totalViews)
-      } catch (error) {
+      } catch (error) { 
         console.error("Failed to fetch views:", error)
       }
     }
