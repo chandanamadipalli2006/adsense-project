@@ -4,7 +4,7 @@ import { useEffect } from "react"
 import { usePathname } from "next/navigation"
 
 export default function PageViewTracker() {
-  const pathname = usePathname()
+  const pathname = usePathname()  
 
   useEffect(() => {
     const incrementPageView = () => {
