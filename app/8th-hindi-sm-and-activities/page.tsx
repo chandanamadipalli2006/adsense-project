@@ -28,8 +28,8 @@ export default function EighthHindiSMAndActivities() {
             material: "#",
             realLinks: true,
             activities: [
-                "https://wordwall.net/resource/34307894",
                 "https://wordwall.net/resource/34307706",
+                "https://wordwall.net/resource/34307894",
                 "https://wordwall.net/resource/34308022",
             ],
         },
@@ -172,6 +172,7 @@ export default function EighthHindiSMAndActivities() {
                                     )}
 
                                     {/* Activity Buttons */}
+                                    {/* Activity Buttons */}
                                     <div className="grid grid-cols-1 gap-3">
 
                                         {/* Activity 1 */}
@@ -183,7 +184,10 @@ export default function EighthHindiSMAndActivities() {
                                             >
                                                 <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-5 shadow-md">
                                                     <Activity className="h-4 w-4 mr-2" />
-                                                    Activity 1
+
+                                                    {index === 0
+                                                        ? "Activity (Meanings)"
+                                                        : "Activity 1"}
                                                 </Button>
                                             </a>
                                         ) : (
@@ -192,7 +196,10 @@ export default function EighthHindiSMAndActivities() {
                                                 className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-5 shadow-md"
                                             >
                                                 <Activity className="h-4 w-4 mr-2" />
-                                                Activity 1
+
+                                                {index === 0
+                                                    ? "Activity (Meanings)"
+                                                    : "Activity 1"}
                                             </Button>
                                         )}
 
@@ -205,7 +212,10 @@ export default function EighthHindiSMAndActivities() {
                                             >
                                                 <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white rounded-xl py-5 shadow-md">
                                                     <Activity className="h-4 w-4 mr-2" />
-                                                    Activity 2
+
+                                                    {index === 0
+                                                        ? "Activity (Synonyms)"
+                                                        : "Activity 2"}
                                                 </Button>
                                             </a>
                                         ) : (
@@ -214,7 +224,10 @@ export default function EighthHindiSMAndActivities() {
                                                 className="w-full bg-purple-600 hover:bg-purple-700 text-white rounded-xl py-5 shadow-md"
                                             >
                                                 <Activity className="h-4 w-4 mr-2" />
-                                                Activity 2
+
+                                                {index === 0
+                                                    ? "Activity (Synonyms)"
+                                                    : "Activity 2"}
                                             </Button>
                                         )}
 
@@ -227,7 +240,10 @@ export default function EighthHindiSMAndActivities() {
                                             >
                                                 <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white rounded-xl py-5 shadow-md">
                                                     <Activity className="h-4 w-4 mr-2" />
-                                                    Activity 3
+
+                                                    {index === 0
+                                                        ? "Activity (Opposites)"
+                                                        : "Activity 3"}
                                                 </Button>
                                             </a>
                                         ) : (
@@ -236,7 +252,10 @@ export default function EighthHindiSMAndActivities() {
                                                 className="w-full bg-orange-600 hover:bg-orange-700 text-white rounded-xl py-5 shadow-md"
                                             >
                                                 <Activity className="h-4 w-4 mr-2" />
-                                                Activity 3
+
+                                                {index === 0
+                                                    ? "Activity (Opposites)"
+                                                    : "Activity 3"}
                                             </Button>
                                         )}
 
