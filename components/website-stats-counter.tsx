@@ -2,24 +2,31 @@
 
 import { useEffect, useState } from "react"
 import { Eye } from "lucide-react"
+import { usePathname } from "next/navigation"
 
 export default function WebsiteStatsCounter() {
-  const [totalViews, setTotalViews] = useState<number | null>(null)
+  const [totalViews, setTotalViews] = useState<number>(1045345)
+
+  const pathname = usePathname()
 
   useEffect(() => {
-    const fetchViews = async () => { 
+    const updateViews = async () => {
       try {
-        const response = await fetch("/api/views")
+        // Increment global page views
+        const response = await fetch("/api/views", {
+          method: "POST",
+        })
+
         const data = await response.json()
 
         setTotalViews(data.totalViews)
-      } catch (error) { 
-        console.error("Failed to fetch views:", error)
+      } catch (error) {
+        console.error("Error updating views:", error)
       }
     }
 
-    fetchViews()
-  }, [])
+    updateViews()
+  }, [pathname])
 
   return (
     <section className="py-8 bg-gradient-to-br from-emerald-50 via-blue-50 to-indigo-50">
@@ -40,9 +47,7 @@ export default function WebsiteStatsCounter() {
               </p>
 
               <p className="text-4xl font-bold text-gray-900">
-                {totalViews
-                  ? totalViews.toLocaleString("en-IN")
-                  : "Loading..."}
+                {totalViews.toLocaleString("en-IN")}
               </p>
 
               <p className="text-xs text-gray-500 mt-2">
