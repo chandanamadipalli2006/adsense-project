@@ -7,7 +7,7 @@ export default function WebsiteStatsCounter() {
   const [totalViews, setTotalViews] = useState<number | null>(null)
 
   useEffect(() => {
-    const fetchViews = async () => {
+    const fetchViews = async () => { 
       try {
         const response = await fetch("/api/views")
         const data = await response.json()
