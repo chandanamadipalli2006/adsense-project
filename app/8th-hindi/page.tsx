@@ -6,6 +6,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export default function EighthHindi() {
   const resources = [
     {
+      name: "S.M. & Activities",
+      icon: FileSpreadsheet,
+      color: "bg-red-500",
+      hoverColor: "hover:bg-red-600",
+      description: "Sample question papers and model answers for exam preparation",
+      link: "/8th-hindi-sm-and-activities",
+    },
+    {
       name: "Lesson Plans",
       icon: BookOpen,
       color: "bg-blue-500",

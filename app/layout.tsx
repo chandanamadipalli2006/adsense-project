@@ -2,7 +2,6 @@ import "./globals.css"
 import type { ReactNode } from "react"
 import { ThemeProvider } from "@/components/theme-provider"
 import Script from "next/script"
-import PageViewTracker from "@/components/page-view-tracker"
 import { Analytics } from "@vercel/analytics/react"
 export const metadata = {
   title: "Greenera",
@@ -25,7 +24,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="flex flex-col min-h-screen">
-            <PageViewTracker />
             {children}
           </div>
 
