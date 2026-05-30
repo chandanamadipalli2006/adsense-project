@@ -7,10 +7,12 @@ import FollowUsSection from "./components/follow-us-section"
 import WebsiteStatsCounter from "@/components/website-stats-counter"
 import GreeneraHeroBanner from "@/components/greenera-hero-banner"
 import { BookOpen, Play, FileText, Languages, GraduationCap } from "lucide-react"
+
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* PWA Registration Script */}
+      
       <Script id="register-sw" strategy="afterInteractive">
         {`
           if ('serviceWorker' in navigator) {

@@ -1,5 +1,5 @@
+import Image from "next/image"
 import { BookOpen, Sparkles, GraduationCap } from "lucide-react"
-
 export default function GreeneraHeroBanner() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-teal-50 py-20 sm:py-32">
@@ -25,6 +25,67 @@ export default function GreeneraHeroBanner() {
       {/* Main content */}
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-5xl mx-auto">
+          {/* Greenera Logo */}
+          <div className="max-w-7xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16">
+
+              {/* Logo */}
+              <div className="flex-shrink-0">
+                <Image
+                  src="/images/greenera-logo.jpeg"
+                  alt="Greenera06 Logo"
+                  width={400}
+                  height={400}
+                  priority
+                  className="
+          w-40
+          sm:w-52
+          md:w-64
+          lg:w-72
+          xl:w-80
+          h-auto
+          object-contain
+          drop-shadow-2xl
+        "
+                />
+              </div>
+
+              {/* Content */}
+              <div className="text-center lg:text-left max-w-4xl">
+
+                {/* Brand badge */}
+                <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-emerald-200/50 rounded-full px-6 py-3 mb-8 shadow-lg">
+                  <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium text-emerald-700">
+                    Quality Education Platform
+                  </span>
+                </div>
+
+                {/* Main heading */}
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 leading-tight mb-6 tracking-tight">
+                  Greenera06
+                </h1>
+
+                {/* Subtitle */}
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-700 mb-4">
+                  Empowering Young Minds Through
+                </p>
+
+                <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600 mb-8">
+                  Digital Learning Excellence
+                </p>
+
+                {/* Description */}
+                <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-3xl">
+                  Join thousands of students in grades 6-10 who are transforming
+                  their educational journey with our comprehensive, multilingual
+                  learning platform designed for academic success.
+                </p>
+
+              </div>
+
+            </div>
+          </div>
           {/* Brand badge */}
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-emerald-200/50 rounded-full px-6 py-3 mb-8 shadow-lg">
             <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>

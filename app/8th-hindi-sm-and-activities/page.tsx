@@ -25,7 +25,7 @@ export default function EighthHindiSMAndActivities() {
     const lessons = [
         {
             title: "Lesson 1",
-            material: "#",
+            material: "/document-viewer?file=/pdfs/balaram-8-hindi-sm-2026-27.pdf",
             realLinks: true,
             activities: [
                 "https://wordwall.net/resource/34307706",
