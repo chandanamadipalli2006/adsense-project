@@ -24,7 +24,7 @@ export default function EighthHindiSMAndActivities() {
 
     const lessons = [
         {
-            title: "Lesson 1",
+            title: "सुबह",
             material: "/document-viewer?file=/pdfs/balaram-8-hindi-sm-2026-27.pdf",
             realLinks: true,
             activities: [
@@ -34,10 +34,14 @@ export default function EighthHindiSMAndActivities() {
             ],
         },
         {
-            title: "Lesson 2",
-            material: "#",
-            realLinks: false,
-            activities: ["#", "#", "#"],
+            title: "तेनालीराम की चतुराई",
+            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-2-तेनालीराम_की_चतुराई-Study_Material.pdf",
+            realLinks: true,
+            activities: [
+                "https://wordwall.net/resource/30713874", 
+                "https://wordwall.net/resource/114235401", 
+                "https://wordwall.net/resource/114235813"
+            ],
         },
         {
             title: "Lesson 3",
@@ -185,9 +189,13 @@ export default function EighthHindiSMAndActivities() {
                                                 <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-5 shadow-md">
                                                     <Activity className="h-4 w-4 mr-2" />
 
-                                                    {index === 0
-                                                        ? "Activity (Meanings)"
-                                                        : "Activity 1"}
+                                                    {
+                                                        index === 0
+                                                            ? "Activity (Meanings)"
+                                                            : index === 1
+                                                                ? "Activity (Meanings)"
+                                                                : "Activity 1"
+                                                    }
                                                 </Button>
                                             </a>
                                         ) : (
@@ -213,9 +221,13 @@ export default function EighthHindiSMAndActivities() {
                                                 <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white rounded-xl py-5 shadow-md">
                                                     <Activity className="h-4 w-4 mr-2" />
 
-                                                    {index === 0
-                                                        ? "Activity (Synonyms)"
-                                                        : "Activity 2"}
+                                                    {
+                                                        index === 0
+                                                            ? "Activity (Synonyms)"
+                                                            : index === 1
+                                                                ? "Activity (Matching)"
+                                                                : "Activity 2"
+                                                    }
                                                 </Button>
                                             </a>
                                         ) : (
@@ -241,9 +253,13 @@ export default function EighthHindiSMAndActivities() {
                                                 <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white rounded-xl py-5 shadow-md">
                                                     <Activity className="h-4 w-4 mr-2" />
 
-                                                    {index === 0
-                                                        ? "Activity (Opposites)"
-                                                        : "Activity 3"}
+                                                    {
+                                                        index === 0
+                                                            ? "Activity (Opposites)"
+                                                            : index === 1
+                                                                ? "Activity (Synonyms)"
+                                                                : "Activity 3"
+                                                    }
                                                 </Button>
                                             </a>
                                         ) : (
