@@ -44,9 +44,9 @@ export default function EighthHindiSMAndActivities() {
             ],
         },
         {
-            title: "Lesson 3",
-            material: "#",
-            realLinks: false,
+            title: "श्रीहरिकोटा",
+            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-3-श्रीहरिकोटा-Study_Material.pdf",
+            realLinks: true,
             activities: ["#", "#", "#"],
         },
         {
