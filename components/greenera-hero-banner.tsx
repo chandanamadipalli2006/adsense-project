@@ -6,9 +6,9 @@ export default function GreeneraHeroBanner() {
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Animated gradient orbs */}
-        <div className="absolute -top-40 -right-32 w-80 h-80 bg-gradient-to-br from-emerald-400/20 to-teal-400/20 rounded-full blur-3xl motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-32 w-96 h-96 bg-gradient-to-tr from-emerald-300/15 to-green-400/15 rounded-full blur-3xl motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-teal-300/10 to-emerald-300/10 rounded-full blur-2xl motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:animate-pulse delay-500"></div>
+        <div className="absolute -top-40 -right-32 w-80 h-80 bg-gradient-to-br from-emerald-400/20 to-teal-400/20 rounded-full blur-3xl motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:opacity-70"></div>
+        <div className="absolute -bottom-40 -left-32 w-96 h-96 bg-gradient-to-tr from-emerald-300/15 to-green-400/15 rounded-full blur-3xl motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:opacity-70 delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-teal-300/10 to-emerald-300/10 rounded-full blur-2xl motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:opacity-70 delay-500"></div>
 
         {/* Floating educational icons */}
         <div className="absolute top-20 left-20 opacity-10 motion-safe:animate-bounce delay-300">
@@ -59,8 +59,8 @@ export default function GreeneraHeroBanner() {
               <div className="text-center lg:text-left max-w-4xl">
 
                 {/* Brand badge */}
-                <div className="inline-flex items-center gap-2 bg-white/80  border border-emerald-200/50 rounded-full px-6 py-3 mb-8 shadow-lg">
-                  <div className="w-2 h-2 bg-emerald-500 rounded-full motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:animate-pulse"></div>
+                <div className="inline-flex items-center gap-2 min-h-[48px] bg-white/80  border border-emerald-200/50 rounded-full px-6 py-3 mb-8 shadow-lg">
+                  <div className="w-2 h-2 bg-emerald-500 rounded-full motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:motion-safe:opacity-70"></div>
                   <span className="text-sm font-medium text-emerald-700">
                     Quality Education Platform
                   </span>
