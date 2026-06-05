@@ -32,21 +32,25 @@ export default function GreeneraHeroBanner() {
               {/* Logo */}
               <div className="flex-shrink-0">
                 <Image
-                  src="/images/greenera-logo.jpeg"
+                  src="/images/greenera-logo.webp"
                   alt="Greenera06 Logo"
-                  width={400}
-                  height={400}
+                  width={320}
+                  height={320}
                   priority
+                  sizes="(max-width: 640px) 160px,
+         (max-width: 768px) 208px,
+         (max-width: 1024px) 256px,
+         320px"
                   className="
-          w-40
-          sm:w-52
-          md:w-64
-          lg:w-72
-          xl:w-80
-          h-auto
-          object-contain
-          drop-shadow-2xl
-        "
+    w-40
+    sm:w-52
+    md:w-64
+    lg:w-72
+    xl:w-80
+    h-auto
+    object-contain
+    drop-shadow-2xl
+  "
                 />
               </div>
 
