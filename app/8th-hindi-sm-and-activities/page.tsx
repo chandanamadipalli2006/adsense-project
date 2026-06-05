@@ -50,15 +50,15 @@ export default function EighthHindiSMAndActivities() {
             activities: ["#", "#", "#"],
         },
         {
-            title: "Lesson 4",
+            title: "किसान",
             material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-4-किसान-Study-Matierial.pdf",
             realLinks: true,
             activities: ["#", "#", "#"],
         },
         {
-            title: "Lesson 5",
-            material: "#",
-            realLinks: false,
+            title: "कूडेदान",
+            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-5-कूडेदान-Study_Material.pdf",
+            realLinks: true,
             activities: ["#", "#", "#"],
         },
         {
