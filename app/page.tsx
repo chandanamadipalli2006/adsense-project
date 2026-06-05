@@ -36,7 +36,7 @@ export default function HomePage() {
       {/* Greenera06 Hero Banner */}
       <GreeneraHeroBanner />
 
-      {/* Hero Section */}
+      {/* Hero Section 
       <section id="home" className="relative bg-gradient-to-br from-emerald-50 to-blue-50 py-16 sm:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -50,7 +50,7 @@ export default function HomePage() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Main Content Sections */}
       <section id="contents" className="py-16 bg-white">
