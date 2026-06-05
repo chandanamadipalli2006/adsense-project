@@ -3,10 +3,17 @@ import type { ReactNode } from "react"
 import { ThemeProvider } from "@/components/theme-provider"
 import Script from "next/script"
 import { Analytics } from "@vercel/analytics/react"
+import { Inter } from "next/font/google"
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+})
+
 export const metadata = {
   title: "Greenera",
-  description: "Providing free, quality online education in Hindi and Telugu for classes 6 to 10.",
-  generator: "v0.app",
+  description:
+    "Providing free, quality online education in Hindi and Telugu for classes 6 to 10.",
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -21,7 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
       </head>
 
-      <body>
+      <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="flex flex-col min-h-screen">
             {children}
