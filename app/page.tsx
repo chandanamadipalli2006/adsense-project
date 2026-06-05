@@ -12,22 +12,22 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* PWA Registration Script */}
-      
+
       <Script id="register-sw" strategy="afterInteractive">
         {`
-          if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-              navigator.serviceWorker.register('/sw.js').then(
-                function(registration) {
-                  console.log('Service Worker registration successful with scope: ', registration.scope);
-                },
-                function(err) {
-                  console.log('Service Worker registration failed: ', err);
-                }
-              );
-            });
-          }
-        `}
+          if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+              navigator.serviceWorker.register('/sw.js').then(
+                function(registration) {
+                  console.log('Service Worker registration successful with scope: ', registration.scope);
+                },
+                function(err) {
+                  console.log('Service Worker registration failed: ', err);
+                }
+              );
+            });
+          }
+        `}
       </Script>
 
       {/* PWA Install Prompt */}
@@ -43,8 +43,8 @@ export default function HomePage() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               Get Free And Quality <span className="text-emerald-600">Online Education</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 font-medium mb-8">Learn - Practice - Test</p>
-            <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-12">
+            <p className="text-xl sm:text-2xl text-gray-700 font-medium mb-8">Learn - Practice - Test</p>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-12">
               Access comprehensive educational content in Hindi and Telugu for classes 6-10. Watch videos, practice
               activities, and excel in your studies with our free online platform.
             </p>
@@ -57,38 +57,38 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Educational Contents</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Explore our comprehensive educational resources designed for students from classes 6 to 10.
             </p>
           </div>
-          
-          
+
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* TET Section 
-            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-cyan-200">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <GraduationCap className="h-8 w-8 text-white" />
-                </div>
-                <CardTitle className="text-xl font-bold text-gray-900">
-                  TET (2A)
-                </CardTitle>
-              </CardHeader>
+            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-cyan-200">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <GraduationCap className="h-8 w-8 text-white" />
+                </div>
+                <CardTitle className="text-xl font-bold text-gray-900">
+                  TET (2A)
+                </CardTitle>
+              </CardHeader>
 
-              <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
-                  Access department-wise tests and practice exams for better preparation.
-                </CardDescription>
+              <CardContent className="text-center">
+                <CardDescription className="text-gray-700 mb-8">
+                  Access department-wise tests and practice exams for better preparation.
+                </CardDescription>
 
-                <div className="px-4">
-                  <Link href="/tet-tests" className="block w-full">
-                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-6 text-base">
-                      View Tests
-                    </Button>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card> */}
+                <div className="px-4">
+                  <Link href="/tet-tests" className="block w-full">
+                    <Button className="w-full bg-cyan-800 hover:bg-cyan-900 text-white font-semibold py-6 text-base">
+                      View Tests
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card> */}
             {/* Department Tests Section */}
             <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-cyan-200">
               <CardHeader className="text-center pb-4">
@@ -101,13 +101,13 @@ export default function HomePage() {
               </CardHeader>
 
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Access department-wise tests and practice exams for better preparation.
                 </CardDescription>
 
                 <div className="px-4">
                   <Link href="/department-tests" className="block w-full">
-                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-6 text-base">
+                    <Button className="w-full bg-cyan-800 hover:bg-cyan-900 text-white font-semibold py-6 text-base">
                       View Tests (141,88,97)
                     </Button>
                   </Link>
@@ -123,19 +123,19 @@ export default function HomePage() {
                 <CardTitle className="text-xl font-bold text-gray-900">Activities</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Interactive activities and practice exercises available in both Telugu and Hindi to enhance your
                   learning experience.
                 </CardDescription>
                 <div className="px-4 space-y-4">
                   <Link href="/telugu-activities" className="block w-full">
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Telugu Activities
                     </Button>
                   </Link>
                   <Link href="/hindi-activities" className="block w-full">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-green-800 hover:bg-green-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Activities
                     </Button>
@@ -153,13 +153,13 @@ export default function HomePage() {
               </CardHeader>
 
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Practice real exam-level POLYCET mock tests to improve speed and accuracy.
                 </CardDescription>
 
                 <div className="px-4">
                   <Link href="/polycet-mock-tests" className="block w-full">
-                    <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-6 text-base">
+                    <Button className="w-full bg-indigo-800 hover:bg-indigo-900 text-white font-semibold py-6 text-base">
                       Mock Exams
                     </Button>
                   </Link>
@@ -175,13 +175,13 @@ export default function HomePage() {
                 <CardTitle className="text-xl font-bold text-gray-900">Hindi Videos</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Watch comprehensive educational videos in Hindi language covering various subjects and topics for
                   better understanding.
                 </CardDescription>
                 <div className="px-4">
                   <Link href="/hindi-videos" className="block w-full">
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Play className="h-4 w-4 mr-2" />
                       Watch Videos
                     </Button>
@@ -190,7 +190,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            
+
 
             {/* 10th Class */}
             {/* 10th Class */}
@@ -203,7 +203,7 @@ export default function HomePage() {
               </CardHeader>
 
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Complete curriculum for Class 10 students with comprehensive study materials in Telugu, Hindi, and English
                   languages.
                 </CardDescription>
@@ -211,14 +211,14 @@ export default function HomePage() {
                 <div className="px-4 space-y-4">
 
                   {/* Telugu Button */}
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
+                  <Button className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                     <Languages className="h-4 w-4 mr-2" />
                     Telugu Content
                   </Button>
 
                   {/* Hindi Button */}
                   <Link href="/10th-hindi" className="block w-full">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-green-800 hover:bg-green-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Content
                     </Button>
@@ -226,28 +226,28 @@ export default function HomePage() {
 
                   {/* ✅ English Button (UPDATED) */}
                   <Link href="/10th-english" className="block w-full">
-                    <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
+                    <Button className="w-full bg-gradient-to-r from-purple-700 to-indigo-800 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
                       <Languages className="h-4 w-4 mr-2" />
                       English Content
                     </Button>
                   </Link>
 
                   <Link href="/10th-math" className="block w-full">
-                    <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
+                    <Button className="w-full bg-gradient-to-r from-purple-700 to-indigo-800 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
                       <Languages className="h-4 w-4 mr-2" />
                       Math Content
                     </Button>
                   </Link>
 
                   <Link href="/10th-biology" className="block w-full">
-                    <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
+                    <Button className="w-full bg-gradient-to-r from-purple-700 to-indigo-800 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
                       <Languages className="h-4 w-4 mr-2" />
                       Biology Content
                     </Button>
                   </Link>
 
                   <Link href="/10th-social" className="block w-full">
-                    <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
+                    <Button className="w-full bg-gradient-to-r from-purple-700 to-indigo-800 hover:from-purple-700 hover:to-indigo-700 text-white transition-all duration-300 py-6 text-base shadow-md hover:shadow-lg">
                       <Languages className="h-4 w-4 mr-2" />
                       Social Content
                     </Button>
@@ -266,17 +266,17 @@ export default function HomePage() {
                 <CardTitle className="text-xl font-bold text-gray-900">9th Class</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Comprehensive study materials and resources for Class 9 students available in both Telugu and Hindi
                   languages.
                 </CardDescription>
                 <div className="px-4 space-y-4">
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
+                  <Button className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                     <Languages className="h-4 w-4 mr-2" />
                     Telugu Content
                   </Button>
                   <Link href="/9th-hindi" className="block w-full">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-green-800 hover:bg-green-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Content
                     </Button>
@@ -294,17 +294,17 @@ export default function HomePage() {
                 <CardTitle className="text-xl font-bold text-gray-900">8th Class</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Quality educational content for Class 8 students with interactive lessons in Telugu and Hindi
                   languages.
                 </CardDescription>
                 <div className="px-4 space-y-4">
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-200 py-6 text-base">
+                  <Button className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                     <Languages className="h-4 w-4 mr-2" />
                     Telugu Content
                   </Button>
                   <Link href="/8th-hindi" className="block w-full">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-green-800 hover:bg-green-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Content
                     </Button>
@@ -322,13 +322,13 @@ export default function HomePage() {
                 <CardTitle className="text-xl font-bold text-gray-900">7th Class</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Engaging study materials and practice exercises designed specifically for Class 7 students in Hindi
                   language.
                 </CardDescription>
                 <div className="px-4">
                   <Link href="/7th-hindi" className="block w-full">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-green-800 hover:bg-green-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Content
                     </Button>
@@ -346,12 +346,12 @@ export default function HomePage() {
                 <CardTitle className="text-xl font-bold text-gray-900">6th Class</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <CardDescription className="text-gray-600 mb-8">
+                <CardDescription className="text-gray-700 mb-8">
                   Foundation building content for Class 6 students with comprehensive study materials in Hindi language.
                 </CardDescription>
                 <div className="px-4">
                   <Link href="/6th-hindi" className="block w-full">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-colors duration-200 py-6 text-base">
+                    <Button className="w-full bg-green-800 hover:bg-green-900 text-white font-semibold transition-colors duration-200 py-6 text-base">
                       <Languages className="h-4 w-4 mr-2" />
                       Hindi Content
                     </Button>
@@ -368,42 +368,42 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Why Choose Greenera?</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               We provide quality education that's accessible, comprehensive, and designed for student success.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-emerald-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Free Education</h3>
-              <p className="text-gray-600">Access quality educational content without any cost barriers</p>
+              <p className="text-gray-700">Access quality educational content without any cost barriers</p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-blue-800 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Languages className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Multi-Language</h3>
-              <p className="text-gray-600">Content available in Hindi and Telugu for better understanding</p>
+              <p className="text-gray-700">Content available in Hindi and Telugu for better understanding</p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Play className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Video Learning</h3>
-              <p className="text-gray-600">Interactive video content for visual and auditory learners</p>
+              <p className="text-gray-700">Interactive video content for visual and auditory learners</p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-orange-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FileText className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Practice Activities</h3>
-              <p className="text-gray-600">Hands-on activities and exercises to reinforce learning</p>
+              <p className="text-gray-700">Hands-on activities and exercises to reinforce learning</p>
             </div>
           </div>
         </div>
@@ -417,3 +417,4 @@ export default function HomePage() {
     </div>
   )
 }
+
