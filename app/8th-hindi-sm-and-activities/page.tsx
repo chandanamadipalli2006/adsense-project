@@ -62,9 +62,9 @@ export default function EighthHindiSMAndActivities() {
             activities: ["#", "#", "#"],
         },
         {
-            title: "Lesson 6",
-            material: "#",
-            realLinks: false,
+            title: "मित्र को पत्र",
+            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-मित्र-को-पत्र-S.M..pdf",
+            realLinks: true,
             activities: ["#", "#", "#"],
         },
         {
