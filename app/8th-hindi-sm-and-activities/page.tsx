@@ -51,7 +51,7 @@ export default function EighthHindiSMAndActivities() {
         },
         {
             title: "किसान",
-            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-4-किसान-Study-Matierial.pdf",
+            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-4-किसान -Study-Matierial.pdf",
             realLinks: true,
             activities: ["#", "#", "#"],
         },
