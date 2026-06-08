@@ -68,9 +68,9 @@ export default function EighthHindiSMAndActivities() {
             activities: ["#", "#", "#"],
         },
         {
-            title: "Lesson 7",
-            material: "#",
-            realLinks: false,
+            title: "गोल",
+            material: "/document-viewer?file=/pdfs/BALARAM-8-Hindi-गोल-S.M..pdf",
+            realLinks: true,
             activities: ["#", "#", "#"],
         },
     ]
