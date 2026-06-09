@@ -12,14 +12,14 @@ export default function TetTestsPage() {
             emoji: "📘",
         },
         {
-            name: "TET 1.2",
+            name: "1.2 माध्_यमिक स्_तर पर हिंदी शिक्षण के उद्देश्_य, प्रथम भाषा के रूप में, द्वितीय भाषा के रूप में",
             description:
                 "📝 Attempt exam-oriented questions covering important topics. Enhance your speed, accuracy, and problem-solving skills.",
             link: "#",
             emoji: "🚀",
         },
         {
-            name: "TET 1.3",
+            name: "1.3 भाषा की समस्ा–त्भाषा सू्त्र",
             description:
                 "🏆 Challenge yourself with advanced-level practice tests. Evaluate your readiness and maximize your chances of success.",
             link: "#",
