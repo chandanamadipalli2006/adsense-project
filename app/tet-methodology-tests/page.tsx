@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 export default function TetTestsPage() {
     const tests = [
         {
-            name: "TET 1.1",
+            name: "1.1 भाषा अर्थ और स्वरूप",
             description:
                 "🎯 Practice core concepts through carefully designed mock tests. Improve understanding, build confidence, and strengthen your exam preparation.",
             link: "https://wordwall.net/resource/114722997",
