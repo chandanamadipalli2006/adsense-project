@@ -64,31 +64,48 @@ export default function HomePage() {
 
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* TET Section 
-            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-cyan-200">
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <GraduationCap className="h-8 w-8 text-white" />
-                </div>
-                <CardTitle className="text-xl font-bold text-gray-900">
-                  TET (2A)
-                </CardTitle>
-              </CardHeader>
+            {/* TET Section */}
+            <Card className="group relative overflow-hidden border-2 border-transparent hover:border-cyan-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
 
-              <CardContent className="text-center">
-                <CardDescription className="text-gray-700 mb-8">
-                  Access department-wise tests and practice exams for better preparation.
-                </CardDescription>
+              {/* Top Accent Bar */}
+              <div className="h-1.5 bg-gradient-to-r from-cyan-500 to-blue-600" />
 
-                <div className="px-4">
-                  <Link href="/tet-tests" className="block w-full">
-                    <Button className="w-full bg-cyan-800 hover:bg-cyan-900 text-white font-semibold py-6 text-base">
-                      View Tests
-                    </Button>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card> */}
+              <CardHeader className="text-center pb-3">
+                <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  <GraduationCap className="h-8 w-8 text-white" />
+                </div>
+
+                <CardTitle className="text-xl font-bold text-gray-900">
+                  TET (2A) HINDI
+                </CardTitle>
+
+                <p className="text-sm font-medium text-cyan-700 mt-1">
+                  Chapter-wise Practice Tests
+                </p>
+              </CardHeader>
+
+              <CardContent className="text-center">
+                <CardDescription className="text-gray-700 leading-relaxed mb-6">
+                  Access free chapter-wise concept-based model papers, department tests,
+                  and practice exams designed to strengthen understanding and improve
+                  exam performance.
+                </CardDescription>
+
+                <div className="flex items-center justify-center mb-6">
+                  <span className="inline-flex items-center rounded-full bg-cyan-50 px-3 py-1 text-xs font-semibold text-cyan-700 border border-cyan-100">
+                    Free Access
+                  </span>
+                </div>
+
+                <div className="px-4">
+                  <Link href="/tet-methodology-and-content" className="block w-full">
+                    <Button className="w-full bg-cyan-800 hover:bg-cyan-900 text-white font-semibold py-6 text-base shadow-md hover:shadow-lg transition-all duration-200">
+                      View Tests (141, 88, 97)
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
             {/* Department Tests Section */}
             <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 hover:border-cyan-200">
               <CardHeader className="text-center pb-4">
