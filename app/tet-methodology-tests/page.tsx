@@ -95,13 +95,13 @@ export default function TetTestsPage() {
                                     {/* Special Card (1.2) */}
                                     {test.special ? (
                                         <div className="flex flex-col gap-3">
-                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-Summary-माध्_यमिक_स्_तर_पर_हिंदी_शिक्षण_के_उद्देश्_य_प्रथम_भाषा_के_रूप_में_द्वितीय_भाषा_के_रूप_में.pdf.pdf">
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-Summary-माध्_यमिक_स्_तर_पर_हिंदी_शिक्षण_के_उद्देश्_य_प्रथम_भाषा_के_रूप_में_द्वितीय_भाषा_के_रूप_में.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                     📘 Syllabus
                                                 </Button>
                                             </Link>
 
-                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-QA-50-माध्_यमिक_स्_तर_पर_हिंदी_शिक्षण_के_उद्देश्_य_प्रथम_भाषा_के_रूप_में_द्वितीय_भाषा_के_रूप_में.pdf.pdf">
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-QA-50-माध्_यमिक_स्_तर_पर_हिंदी_शिक्षण_के_उद्देश्_य_प्रथम_भाषा_के_रूप_में_द्वितीय_भाषा_के_रूप_में.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                     📄 Questions in pdf
                                                 </Button>
