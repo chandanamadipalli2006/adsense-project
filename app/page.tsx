@@ -100,7 +100,7 @@ export default function HomePage() {
                 <div className="px-4">
                   <Link href="/tet-methodology-and-content" className="block w-full">
                     <Button className="w-full bg-cyan-800 hover:bg-cyan-900 text-white font-semibold py-6 text-base shadow-md hover:shadow-lg transition-all duration-200">
-                      View Tests (141, 88, 97)
+                      View Tests
                     </Button>
                   </Link>
                 </div>

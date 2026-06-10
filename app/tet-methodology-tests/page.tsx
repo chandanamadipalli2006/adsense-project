@@ -2,8 +2,16 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+type Test = {
+    name: string
+    description: string
+    emoji: string
+    link?: string
+    special?: boolean
+}
+
 export default function TetTestsPage() {
-    const tests = [
+    const tests: Test[] = [
         {
             name: "1.1 भाषा अर्थ और स्वरूप",
             description:
@@ -12,14 +20,14 @@ export default function TetTestsPage() {
             emoji: "📘",
         },
         {
-            name: "1.2 माध्_यमिक स्_तर पर हिंदी शिक्षण के उद्देश्_य, प्रथम भाषा के रूप में, द्वितीय भाषा के रूप में",
+            name: "1.2 माध्‍यमिक स्‍तर पर हिंदी शिक्षण के उद्देश्‍य, प्रथम भाषा के रूप में, द्वितीय भाषा के रूप में",
             description:
                 "📝 Attempt exam-oriented questions covering important topics. Enhance your speed, accuracy, and problem-solving skills.",
-            link: "#",
             emoji: "🚀",
+            special: true,
         },
         {
-            name: "1.3 भाषा की समस्ा–त्भाषा सू्त्र",
+            name: "1.3 भाषा की समस्‍या–त्भाषा सूत्र",
             description:
                 "🏆 Challenge yourself with advanced-level practice tests. Evaluate your readiness and maximize your chances of success.",
             link: "#",
@@ -75,21 +83,49 @@ export default function TetTestsPage() {
                                     </div>
 
                                     {/* Title */}
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                                    <h3 className="text-xl font-bold text-gray-900 mb-3">
                                         {test.emoji} {test.name}
                                     </h3>
 
                                     {/* Description */}
-                                    <p className="text-gray-600 leading-relaxed mb-6 min-h-[110px]">
+                                    <p className="text-gray-600 leading-relaxed mb-6 min-h-[100px]">
                                         {test.description}
                                     </p>
 
-                                    {/* Start Button */}
-                                    <Link href={test.link}>
-                                        <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
-                                            🚀 Start Test
-                                        </Button>
-                                    </Link>
+                                    {/* Special Card (1.2) */}
+                                    {test.special ? (
+                                        <div className="flex flex-col gap-3">
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-Summary-माध्_यमिक_स्_तर_पर_हिंदी_शिक्षण_के_उद्देश्_य_प्रथम_भाषा_के_रूप_में_द्वितीय_भाषा_के_रूप_में.pdf.pdf">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    📘 Syllabus
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-QA-50-माध्_यमिक_स्_तर_पर_हिंदी_शिक्षण_के_उद्देश्_य_प्रथम_भाषा_के_रूप_में_द्वितीय_भाषा_के_रूप_में.pdf.pdf">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    📄 Questions in pdf
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/methodology-1.2-part-1">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    🚀 Start Test - Part 1
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/methodology-1.2-part-2">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    🚀 Start Test - Part 2
+                                                </Button>
+                                            </Link>
+                                        </div>
+                                    ) : (
+                                        <Link href={test.link!}>
+                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                🚀 Start Test
+                                            </Button>
+                                        </Link>
+                                    )}
                                 </div>
                             ))}
                         </div>
