@@ -27,11 +27,11 @@ export default function TetTestsPage() {
             special: true,
         },
         {
-            name: "1.3 भाषा की समस्‍या–त्भाषा सूत्र",
+            name: "1.3 भाषा की समस्या–त्भाषा सूत्र",
             description:
                 "🏆 Challenge yourself with advanced-level practice tests. Evaluate your readiness and maximize your chances of success.",
-            link: "#",
             emoji: "⭐",
+            special: true,
         },
     ]
 
@@ -93,7 +93,7 @@ export default function TetTestsPage() {
                                     </p>
 
                                     {/* Special Card (1.2) */}
-                                    {test.special ? (
+                                    {test.name.startsWith("1.2") ? (
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
@@ -103,7 +103,7 @@ export default function TetTestsPage() {
 
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-QA-50.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📄 Questions in pdf
+                                                    📄 Questions in PDF
                                                 </Button>
                                             </Link>
 
@@ -114,6 +114,32 @@ export default function TetTestsPage() {
                                             </Link>
 
                                             <Link href="/methodology-1.2-part-2">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    🚀 Start Test - Part 2
+                                                </Button>
+                                            </Link>
+                                        </div>
+                                    ) : test.name.startsWith("1.3") ? (
+                                        <div className="flex flex-col gap-3">
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.3-Summary.pdf">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    📘 Syllabus
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.3-QA-(50).pdf">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    📄 Questions in PDF
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/methodology-1.3-part-1">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    🚀 Start Test - Part 1
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/methodology-1.3-part-2">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                     🚀 Start Test - Part 2
                                                 </Button>
