@@ -33,6 +33,21 @@ export default function TetTestsPage() {
             emoji: "⭐",
             special: true,
         },
+        {
+            name: "2.1 & 2.2 आदर् हिंदी अध्याप पे गुण अच्े शरकप पी विरेषतयऍं",
+            description:
+                "📚 Combined Practice Tests for Chapters 2.1 and 2.2.",
+            emoji: "📖",
+            special: true,
+        },
+        {
+            name: "2.3 & 2.4 भाषा शिक् की समान् शसद्ाां & भाषा शिक् के सूत",
+            description:
+                "🎯 Combined Practice Tests for Chapters 2.3 and 2.4.",
+            emoji: "🏅",
+            special: true,
+        },
+        
     ]
 
     return (
@@ -145,7 +160,59 @@ export default function TetTestsPage() {
                                                 </Button>
                                             </Link>
                                         </div>
-                                    ) : (
+                                        ) : test.name.startsWith("2.1") ? (
+                                                <div className="flex flex-col gap-3">
+                                                    <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.1&2.2-Summary.pdf">
+                                                        <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                            📘 Syllabus
+                                                        </Button>
+                                                    </Link>
+
+                                                    <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.1-2.2-QA.pdf">
+                                                        <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                            📄 Questions in PDF
+                                                        </Button>
+                                                    </Link>
+
+                                                    <Link href="/methodology-2.1-2.2-part-1">
+                                                        <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                            🚀 Start Test - Part 1
+                                                        </Button>
+                                                    </Link>
+
+                                                    <Link href="/methodology-2.1-2.2-part-2">
+                                                        <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                            🚀 Start Test - Part 2
+                                                        </Button>
+                                                    </Link>
+                                                </div>
+                                            ) : test.name.startsWith("2.3") ? (
+                                                    <div className="flex flex-col gap-3">
+                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.3-2.4-Summary.pdf">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                📘 Syllabus
+                                                            </Button>
+                                                        </Link>
+
+                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.3-2.4-QA.pdf">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                📄 Questions in PDF
+                                                            </Button>
+                                                        </Link>
+
+                                                        <Link href="/methodology-2.3-2.4-part-1">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                🚀 Start Test - Part 1
+                                                            </Button>
+                                                        </Link>
+
+                                                        <Link href="/methodology-2.3-2.4-part-2">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                🚀 Start Test - Part 2
+                                                            </Button>
+                                                        </Link>
+                                                    </div>
+                                            ) : (
                                         <Link href={test.link!}>
                                             <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
                                                 🚀 Start Test
