@@ -278,11 +278,7 @@ export default function TetTestsPage() {
                                                     </Button>
                                                 </Link>
 
-                                                <Link href="/methodology-3.1-part-2">
-                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                        🚀 Start Test - Part 2
-                                                    </Button>
-                                                </Link>
+                                            
                                             </div>) : test.name.startsWith("3.2") ? (
                                                 <div className="flex flex-col gap-3">
                                                                     <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
