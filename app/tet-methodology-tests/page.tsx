@@ -68,6 +68,60 @@ export default function TetTestsPage() {
             emoji: "🏆",
             special: true,
         },
+        {
+            name: "4.1 & 4.2",
+            description: "📚 Combined Practice Tests for Chapters 4.1 and 4.2 (40 Q&A).",
+            emoji: "📘",
+            special: true,
+        },
+        {
+            name: "4.3",
+            description: "📝 Practice Tests for Chapter 4.3 (50 Q&A).",
+            emoji: "📗",
+            special: true,
+        },
+        {
+            name: "4.4 & 4.5",
+            description: "🎯 Combined Practice Tests for Chapters 4.4 and 4.5 (50 Q&A).",
+            emoji: "📙",
+            special: true,
+        },
+        {
+            name: "4.6",
+            description: "🚀 Practice Tests for Chapter 4.6 (50 Q&A).",
+            emoji: "📕",
+            special: true,
+        },
+        {
+            name: "5.1 & 5.2",
+            description: "📖 Combined Practice Tests for Chapters 5.1 and 5.2 (50 Q&A).",
+            emoji: "📚",
+            special: true,
+        },
+        {
+            name: "5.3 & 5.4",
+            description: "🏆 Combined Practice Tests for Chapters 5.3 and 5.4 (50 Q&A).",
+            emoji: "⭐",
+            special: true,
+        },
+        {
+            name: "6.1 & 6.2",
+            description: "📘 Combined Practice Tests for Chapters 6.1 and 6.2 (50 Q&A).",
+            emoji: "🎯",
+            special: true,
+        },
+        {
+            name: "6.3 & 6.4",
+            description: "📗 Combined Practice Tests for Chapters 6.3 and 6.4 (50 Q&A).",
+            emoji: "🚀",
+            special: true,
+        },
+        {
+            name: "6.5 & 6.6",
+            description: "📙 Combined Practice Tests for Chapters 6.5 and 6.6 (50 Q&A).",
+            emoji: "🏅",
+            special: true,
+        },
 
     ]
 
@@ -235,7 +289,7 @@ export default function TetTestsPage() {
                                         </div>
                                     ) : test.name.startsWith("2.5") ? (
                                         <div className="flex flex-col gap-3">
-                                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.5-2.6-Summary.pdf">
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.5-2.6-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                     📘 Syllabus
                                                 </Button>
@@ -260,7 +314,7 @@ export default function TetTestsPage() {
                                             </Link>
                                         </div>) : test.name.startsWith("3.1") ? (
                                             <div className="flex flex-col gap-3">
-                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.1-Summary-भाषा_शिक्षण_में_भाषा_कौशलों_का_महत्व.pdf">
+                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.1-Summary-भाषा_शिक्षण_में_भाषा_कौशलों_का_महत्व.pdf">
                                                     <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                         📘 Syllabus
                                                     </Button>
@@ -280,13 +334,13 @@ export default function TetTestsPage() {
 
                                             </div>) : test.name.startsWith("3.2") ? (
                                                 <div className="flex flex-col gap-3">
-                                                                    <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                    <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
                                                         <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                             📘 Syllabus
                                                         </Button>
                                                     </Link>
 
-                                                                    <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                    <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
                                                         <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
                                                             📄 Questions in PDF
                                                         </Button>
@@ -303,15 +357,237 @@ export default function TetTestsPage() {
                                                             🚀 Start Test - Part 2
                                                         </Button>
                                                     </Link>
-                                                </div>) : (<Link href={test.link!}>
-                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
-                                                        🚀 Start Test
-                                                    </Button>
-                                                </Link>
+                                                </div>) : test.name.startsWith("4.1") ? (
+                                                    <div className="flex flex-col gap-3">
+                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                📘 Syllabus
+                                                            </Button>
+                                                        </Link>
+
+                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                📄 Questions in PDF
+                                                            </Button>
+                                                        </Link>
+
+                                                        <Link href="/methodology-3.2-part-1">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                🚀 Start Test - Part 1
+                                                            </Button>
+                                                        </Link>
+
+                                                        <Link href="/methodology-3.2-part-2">
+                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                🚀 Start Test - Part 2
+                                                            </Button>
+                                                        </Link></div>) : test.name.startsWith("4.3") ? (
+                                                            <div className="flex flex-col gap-3">
+                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                        📘 Syllabus
+                                                                    </Button>
+                                                                </Link>
+
+                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                        📄 Questions in PDF
+                                                                    </Button>
+                                                                </Link>
+
+                                                                <Link href="/methodology-3.2-part-1">
+                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                        🚀 Start Test - Part 1
+                                                                    </Button>
+                                                                </Link>
+
+                                                                <Link href="/methodology-3.2-part-2">
+                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                        🚀 Start Test - Part 2
+                                                                    </Button>
+                                                                </Link></div>) : test.name.startsWith("4.4") ? (
+                                                                    <div className="flex flex-col gap-3">
+                                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                📘 Syllabus
+                                                                            </Button>
+                                                                        </Link>
+
+                                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                📄 Questions in PDF
+                                                                            </Button>
+                                                                        </Link>
+
+                                                                        <Link href="/methodology-3.2-part-1">
+                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                🚀 Start Test - Part 1
+                                                                            </Button>
+                                                                        </Link>
+
+                                                                        <Link href="/methodology-3.2-part-2">
+                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                🚀 Start Test - Part 2
+                                                                            </Button>
+                                                                        </Link>
+                                                                    </div>) : test.name.startsWith("4.6") ? (
+                                                                        <div className="flex flex-col gap-3">
+                                                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                    📘 Syllabus
+                                                                                </Button>
+                                                                            </Link>
+
+                                                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                    📄 Questions in PDF
+                                                                                </Button>
+                                                                            </Link>
+
+                                                                            <Link href="/methodology-3.2-part-1">
+                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                    🚀 Start Test - Part 1
+                                                                                </Button>
+                                                                            </Link>
+
+                                                                            <Link href="/methodology-3.2-part-2">
+                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                    🚀 Start Test - Part 2
+                                                                                </Button>
+                                                                            </Link>
+                                                                        </div>) : test.name.startsWith("5.1") ? (
+                                                                            <div className="flex flex-col gap-3">
+                                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                        📘 Syllabus
+                                                                                    </Button>
+                                                                                </Link>
+
+                                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                        📄 Questions in PDF
+                                                                                    </Button>
+                                                                                </Link>
+
+                                                                                <Link href="/methodology-3.2-part-1">
+                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                        🚀 Start Test - Part 1
+                                                                                    </Button>
+                                                                                </Link>
+
+                                                                                <Link href="/methodology-3.2-part-2">
+                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                        🚀 Start Test - Part 2
+                                                                                    </Button>
+                                                                                </Link></div>) : test.name.startsWith("5.3") ? (
+                                                                                    <div className="flex flex-col gap-3">
+                                                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                📘 Syllabus
+                                                                                            </Button>
+                                                                                        </Link>
+
+                                                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                📄 Questions in PDF
+                                                                                            </Button>
+                                                                                        </Link>
+
+                                                                                        <Link href="/methodology-3.2-part-1">
+                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                🚀 Start Test - Part 1
+                                                                                            </Button>
+                                                                                        </Link>
+
+                                                                                        <Link href="/methodology-3.2-part-2">
+                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                🚀 Start Test - Part 2
+                                                                                            </Button>
+                                                                                        </Link></div>) : test.name.startsWith("6.1") ? (
+                                                                                            <div className="flex flex-col gap-3">
+                                                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                        📘 Syllabus
+                                                                                                    </Button>
+                                                                                                </Link>
+
+                                                                                                <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                        📄 Questions in PDF
+                                                                                                    </Button>
+                                                                                                </Link>
+
+                                                                                                <Link href="/methodology-3.2-part-1">
+                                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                        🚀 Start Test - Part 1
+                                                                                                    </Button>
+                                                                                                </Link>
+
+                                                                                                <Link href="/methodology-3.2-part-2">
+                                                                                                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                        🚀 Start Test - Part 2
+                                                                                                    </Button>
+                                                                                                </Link></div>) : test.name.startsWith("6.3") ? (
+                                                                                                    <div className="flex flex-col gap-3">
+                                                                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                📘 Syllabus
+                                                                                                            </Button>
+                                                                                                        </Link>
+
+                                                                                                        <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                📄 Questions in PDF
+                                                                                                            </Button>
+                                                                                                        </Link>
+
+                                                                                                        <Link href="/methodology-3.2-part-1">
+                                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                🚀 Start Test - Part 1
+                                                                                                            </Button>
+                                                                                                        </Link>
+
+                                                                                                        <Link href="/methodology-3.2-part-2">
+                                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                🚀 Start Test - Part 2
+                                                                                                            </Button>
+                                                                                                        </Link>
+                                                                                                    </div>) : test.name.startsWith("6.5") ? (
+                                                                                                        <div className="flex flex-col gap-3">
+                                                                                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
+                                                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                    📘 Syllabus
+                                                                                                                </Button>
+                                                                                                            </Link>
+
+                                                                                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-QA-50-भाषा_कौशलों_का_विकास.pdf">
+                                                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                    📄 Questions in PDF
+                                                                                                                </Button>
+                                                                                                            </Link>
+
+                                                                                                            <Link href="/methodology-3.2-part-1">
+                                                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                    🚀 Start Test - Part 1
+                                                                                                                </Button>
+                                                                                                            </Link>
+
+                                                                                                            <Link href="/methodology-3.2-part-2">
+                                                                                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                                                                                    🚀 Start Test - Part 2
+                                                                                                                </Button>
+                                                                                                            </Link>
+                                                                                                        </div>) : (<Link href={test.link || "#"}>
+                                                                                                            <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                                                                                🚀 Start Test
+                                                                                                            </Button>
+                                                                                                        </Link>
                                     )}
                                 </div>
                             ))}
                         </div>
+
+
 
                         {/* Back Button */}
                         <div className="text-center">
