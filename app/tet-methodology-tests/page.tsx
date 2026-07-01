@@ -57,7 +57,7 @@ export default function TetTestsPage() {
         {
             name: "3.1 शिक्षण में भाषा कौशलों का महत्व",
             description:
-                "🎯 Practice tests, syllabus and question bank for Language Skills Importance.",
+                "🎯 Practice tests, Summary and question bank for Language Skills Importance.",
             emoji: "📝",
             special: true,
         },
@@ -183,11 +183,37 @@ export default function TetTestsPage() {
                                     </p>
 
                                     {/* Special Card (1.2) */}
-                                    {test.name.startsWith("1.2") ? (
+                                    {test.name.startsWith("1.1") ? (
+                                        <div className="flex flex-col gap-3">
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.1-Summary-भाषा_अर्थ_और_स्_वरूप.pdf">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    📘 Summary
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/document-viewer?file=/pdfs/Balaram-TET-1.1-QA-50.pdf">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    📄 Questions in PDF
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/methodology-1.1-part-1">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    🚀 Start Test - Part 1
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/methodology-1.1-part-2">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
+                                                    🚀 Start Test - Part 2
+                                                </Button>
+                                            </Link>
+                                        </div>
+                                    ) : test.name.startsWith("1.2") ? (
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.2-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -213,7 +239,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-1.3-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -239,7 +265,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.1&2.2-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -265,7 +291,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.3-2.4-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -291,7 +317,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-2.5-2.6-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -317,7 +343,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.1-Summary-भाषा_शिक्षण_में_भाषा_कौशलों_का_महत्व.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -338,7 +364,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-3.2-Summary-भाषा_कौशलों_का_विकास.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -364,7 +390,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-4.1-4.2-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -390,7 +416,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-4.3-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -416,7 +442,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-4.4-4.5-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -442,7 +468,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-4.6-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -468,7 +494,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-5.1-5.2-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -494,7 +520,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-5.3-5.4-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -520,7 +546,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-6.1-6.2-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -546,7 +572,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-6.3-6.4-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
@@ -572,7 +598,7 @@ export default function TetTestsPage() {
                                         <div className="flex flex-col gap-3">
                                             <Link href="/document-viewer?file=/pdfs/Balaram-Tet-6.5-6.6-Summary.pdf">
                                                 <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl h-12">
-                                                    📘 Syllabus
+                                                    📘 Summary
                                                 </Button>
                                             </Link>
 
