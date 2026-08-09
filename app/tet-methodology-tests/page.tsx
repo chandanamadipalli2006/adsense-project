@@ -633,7 +633,7 @@ export default function TetTestsPage() {
 
                         {/* Back Button */}
                         <div className="text-center">
-                            <Link href="/tet-methodology-and-content">
+                            <Link href="/tet-methodology-and-psychology">
                                 <Button className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg font-medium rounded-xl">
                                     <ArrowLeft className="h-5 w-5 mr-2" />
                                     Back to Home

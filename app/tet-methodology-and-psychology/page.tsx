@@ -12,10 +12,10 @@ export default function TetMethodologyAndContentPage() {
             emoji: "📚",
         },
         {
-            name: "Content",
+            name: "Psychology",
             description:
-                "📝 Access content-based practice tests covering important subject concepts, exam-oriented questions, and key topics frequently asked in TET 2A examinations.",
-            link: "/tet-content-tests",
+                "📝 Access psychology-based practice tests covering important subject concepts, exam-oriented questions, and key topics frequently asked in TET 2A examinations.",
+            link: "/tet-psychology-tests",
             emoji: "🚀",
         },
     ]
