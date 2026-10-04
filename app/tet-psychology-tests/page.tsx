@@ -87,20 +87,18 @@ export default function TetPsychologyPage() {
 
                                 <div
                                     key={index}
-                                    className={`bg - white rounded - 2xl border shadow - md p - 6 transition - all duration - 300 ${
-    test.disabled
-        ? "border-gray-200 opacity-70"
-        : "border-cyan-100 hover:shadow-2xl hover:-translate-y-2"
-} `}
+                                    className={`bg - white rounded - 2xl border shadow - md p - 6 transition - all duration - 300 ${test.disabled
+                                            ? "border-gray-200 opacity-70"
+                                            : "border-cyan-100 hover:shadow-2xl hover:-translate-y-2"
+                                        } `}
                                 >
 
                                     {/* Number Badge */}
                                     <div
-                                        className={`flex items - center justify - center w - 14 h - 14 rounded - full mb - 4 font - bold text - lg ${
-    test.disabled
-        ? "bg-gray-200 text-gray-500"
-        : "bg-cyan-100 text-cyan-700"
-} `}
+                                        className={`flex items - center justify - center w - 14 h - 14 rounded - full mb - 4 font - bold text - lg ${test.disabled
+                                                ? "bg-gray-200 text-gray-500"
+                                                : "bg-cyan-100 text-cyan-700"
+                                            } `}
                                     >
                                         {test.name}
                                     </div>
@@ -159,14 +157,40 @@ export default function TetPsychologyPage() {
                                     {/* CONTAINER 2 & 3 DISABLED */}
                                     {/* ========================= */}
 
-                                    {test.disabled && (
-                                        <Button
-                                            disabled
-                                            className="w-full bg-gray-300 text-gray-600 font-semibold py-6 text-base rounded-xl cursor-not-allowed"
-                                        >
-                                            <Lock className="h-5 w-5 mr-2" />
-                                            Tests Coming Soon
-                                        </Button>
+                                    {test.name === "2" && (
+                                        <div className="flex flex-col gap-3">
+
+                                            <Link href="/psychology-2-1">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                    🚀 Start Test 1
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/psychology-2-2">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                    🚀 Start Test 2
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/psychology-2-3">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                    🚀 Start Test 3
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/psychology-2-4">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                    🚀 Start Test 4
+                                                </Button>
+                                            </Link>
+
+                                            <Link href="/psychology-2-5">
+                                                <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-6 text-base rounded-xl transition-all duration-300">
+                                                    🚀 Start Test 5
+                                                </Button>
+                                            </Link>
+
+                                        </div>
                                     )}
 
                                 </div>
